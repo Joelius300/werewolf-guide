@@ -1,0 +1,6 @@
+[book]
+authors = ["Joel Liechti"]
+language = "de-ch"
+multilingual = false
+src = "src"
+title = "Joel's Werewolves"
