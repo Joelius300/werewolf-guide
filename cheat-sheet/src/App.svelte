@@ -1,39 +1,13 @@
 <script lang="ts">
-    interface Role {
-        name: string;
-        team: string;
-        nightAbility: string;
-    }
+    export let roles: Role[];
 
-    const roles: Role[] = [
-        {
-            name: 'Werwolf',
-            team: 'Werwölfe',
-            nightAbility: 'Kann zusammen mit den anderen Werwölfen ein Opfer zum Töten aussuchen.',
-        },
-        {
-            name: 'Dorfbewohner',
-            team: 'Dorf',
-            nightAbility: '-',
-        },
-        {
-            name: 'Seher',
-            team: 'Dorf',
-            nightAbility: 'Kann die Karte eines Mitspielers anschauen.',
-        },
-        {
-            name: 'Hexe',
-            team: 'Dorf',
-            nightAbility: 'Hat einen Trank zum Heilen und einen zum Töten. ',
-        },
-    ]
 </script>
 
 <main>
     {#each roles as role}
     <div>
-        <h3>{role.name}</h3>
-        <p>{role.team}</p>
+        <h3>{role.name} ({role.team})</h3>
+        <p>{role.special}</p>
     </div>
     {/each}
 </main>
@@ -52,5 +26,9 @@
     main div {
         border: solid 1px black;
         padding: 0 5px;
+    }
+
+    h3 {
+        margin: 10px 0;
     }
 </style>
