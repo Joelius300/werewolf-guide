@@ -7,7 +7,7 @@
     {#each roles as role}
     <div>
         <h3>{role.name} ({role.team})</h3>
-        <p>{role.special}</p>
+        <p>{role.special || '-'}</p>
     </div>
     {/each}
 </main>
@@ -25,7 +25,7 @@
     main div {
         border: solid 1px black;
         padding: 0 5px;
-        height: 10cm;
+        height: 10.3cm; /* this can't be good. It doesn't even match up, the browser scales it for me when printing.. I think these should just be relative of some sort. */
     }
 
     h3 {
