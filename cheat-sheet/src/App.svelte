@@ -19,13 +19,13 @@
         height: 100%;
         margin: 0 auto;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
         gap: 2px;
     }
 
     main div {
         border: solid 1px black;
         padding: 0 5px;
+        height: 10cm;
     }
 
     h3 {
