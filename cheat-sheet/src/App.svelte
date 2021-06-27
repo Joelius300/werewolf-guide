@@ -17,7 +17,7 @@
         display: grid;
         width: 100%;
         height: 100%;
-        margin: 0 auto;
+        /*margin: 0 auto;*/
         grid-template-columns: repeat(4, 1fr);
         gap: 2px;
     }
@@ -25,7 +25,7 @@
     main div {
         border: solid 1px black;
         padding: 0 5px;
-        height: 10.3cm; /* this can't be good. It doesn't even match up, the browser scales it for me when printing.. I think these should just be relative of some sort. */
+        height: 9.6cm; /* this can't be good. It doesn't even match up, the browser scales it for me when printing.. I think these should just be relative of some sort. */
     }
 
     h3 {

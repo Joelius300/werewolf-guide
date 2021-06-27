@@ -1,18 +1,6 @@
-@media print {
-    @page {
-        /* Doesn't seem to work for firefox :( */
-        size: A4 landscape
-    }
-
-    html, body {
-        margin: 0px !important;
-        padding: 0px !important;
-    }
-}
-
 html, body {
-    width: 29.7cm;
-    margin: 2mm;
+    width: 29cm;
+    /*margin: 2mm;*/
 }
 
 body {
