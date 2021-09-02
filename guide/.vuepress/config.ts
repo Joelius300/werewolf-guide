@@ -24,7 +24,11 @@ export default defineUserConfig<DefaultThemeOptions>({
           {
             text: 'Charaktere',
             link: '/characters.md'
-          }
+          },
+          {
+            text: 'Inspirationen',
+            link: '/inspirations.md'
+          },
         ]
       },
     }
