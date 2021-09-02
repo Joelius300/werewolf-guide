@@ -13,11 +13,19 @@ export default defineUserConfig<DefaultThemeOptions>({
       '/': {
         backToHome: "Gömer zrügg",
         repo: 'https://github.com/Joelius300/werewolf-guide',
-        repoLabel: 'Source',
+        repoLabel: 'Projekt',
         docsRepo: 'https://github.com/Joelius300/werewolf-guide',
         docsBranch: 'master',
         editLinkText: 'Passt dr öppis nid?',
         docsDir: 'book_vuepress/guide',
+        lastUpdated: false,
+        contributorsText: 'Autoren',
+        navbar: [
+          {
+            text: 'Charaktere',
+            link: '/characters.md'
+          }
+        ]
       },
     }
   },

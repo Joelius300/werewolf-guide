@@ -27,7 +27,7 @@
     "id": "cupid",
     "name": "Amor",
     "team": "Dorf",
-    "special": "In der ersten Nacht wählt er zwei Spieler, welche ab dann verliebt und seelisch verbunden sind. Wenn eine Person des Pärchens stirbt, stirbt die andere Person auch (dagegen kann nicht beschützt werden). Das Ziel des Päärchen ist es, als letztes zu überleben. Dies ist immer das oberste Ziel (über Werwölfen oder Mafia). Am besten verliebt man sich als Amor selbst mit jemandem."
+    "special": "In der ersten Nacht wählt er zwei Spieler, welche ab dann verliebt und seelisch verbunden sind. Wenn eine Person des Pärchens stirbt, stirbt die andere Person auch (dagegen kann nicht beschützt werden). Das Ziel des Pärchen ist es, als letztes zu überleben. Dies ist immer das oberste Ziel (über Werwölfen oder Mafia). Am besten verliebt man sich als Amor selbst mit jemandem."
   },
   {
     "id": "witch",
@@ -87,7 +87,7 @@
     "id": "mafiaboss",
     "name": "Mafia Boss",
     "team": "Mafia",
-    "special": "Jede zweite Nacht wählt der Mafiaboss ein neues Mitglied in die Mafia auf ein Maximum von einem Viertel der Spieler. Die Personen der Mafia versuchen alle anderen Spieler auszuschalten und als letztes zu leben. Die Mafia hat eine höhere Priorität als Werwölfe aber eine tiefere als das Päärchen. Er muss beschützt werden, denn wenn der Mafia Boss stirbt, löst sich die Mafia auf und die Personen werden wieder \"normal\"."
+    "special": "Jede zweite Nacht wählt der Mafiaboss ein neues Mitglied in die Mafia auf ein Maximum von einem Viertel der Spieler. Die Personen der Mafia versuchen alle anderen Spieler auszuschalten und als letztes zu leben. Die Mafia hat eine höhere Priorität als Werwölfe aber eine tiefere als das Pärchen. Er muss beschützt werden, denn wenn der Mafia Boss stirbt, löst sich die Mafia auf und die Personen werden wieder \"normal\"."
   },
   {
     "id": "old_dude",
