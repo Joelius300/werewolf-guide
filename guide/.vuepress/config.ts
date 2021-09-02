@@ -7,6 +7,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'Werwolf (Mafia) Guide',
   description: 'Sammlung von Regeln und Charakteren für das Spiel Werwolf (Mafia)',
   theme: path.resolve(__dirname, './theme'),
+  base: 'werewolf-guide',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
     locales: {
