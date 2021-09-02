@@ -18,7 +18,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         docsRepo: 'https://github.com/Joelius300/werewolf-guide',
         docsBranch: 'master',
         editLinkText: 'Passt dr öppis nid?',
-        docsDir: 'book_vuepress/guide',
+        docsDir: 'guide',
         lastUpdated: false,
         contributorsText: 'Autoren',
         navbar: [
