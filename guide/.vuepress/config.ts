@@ -8,8 +8,14 @@ export default defineUserConfig<DefaultThemeOptions>({
   description: 'Sammlung von Regeln und Charakteren für das Spiel Werwolf (Mafia)',
   theme: path.resolve(__dirname, './theme'),
   base: '/werewolf-guide/',
+  head: [
+    [
+      'link', { rel: 'icon', href: 'images/wolf_icon_black_on_white.png' }
+    ]
+  ],
   themeConfig: {
-    logo: 'https://vuejs.org/images/logo.png',
+    logo: 'images/wolf_icon_black.svg',
+    logoDark: 'images/wolf_icon_white.svg',
     locales: {
       '/': {
         backToHome: "Gömer zrügg",

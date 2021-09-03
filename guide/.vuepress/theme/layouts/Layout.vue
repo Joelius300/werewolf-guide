@@ -8,9 +8,12 @@
               style="border-width: 0"
               src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
         </a>
-          <br />
-          Diese Webseite und deren Inhalt sind lizenziert unter
+        <br />
+          Diese Webseite und deren Inhalt sind lizenziert unter 
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        <br />
+          Das Wolf-Icon gehört 
+        <a href="https://www.mcicon.com/product/wolf-icon-15/">MCICON</a>.
       </div>
     </template>
   </Layout>
