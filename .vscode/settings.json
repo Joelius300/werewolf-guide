@@ -3,5 +3,6 @@
   "cSpell.words": [
     "linebreak",
     "vuepress"
-  ]
+  ],
+  "editor.tabSize": 2
 }

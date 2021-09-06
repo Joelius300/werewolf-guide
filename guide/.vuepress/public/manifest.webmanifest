@@ -1,0 +1,21 @@
+{
+  "name": "Werwolf-Guide",
+  "short_name": "WW-Guide",
+  "description": "Sammlung von Regeln und Charakteren für das Spiel Werwolf (Mafia)",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [
+    {
+      "src": "/images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

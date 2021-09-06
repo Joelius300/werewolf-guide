@@ -12,9 +12,11 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: path.resolve(__dirname, './theme'),
   base: '/werewolf-guide/',
   head: [
-    [
-      'link', { rel: 'icon', href: 'images/wolf_icon_black_on_white.png' },
-    ],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'images/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'images/favicon-16x16.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: 'images/apple-touch-icon.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#fff' }],
   ],
   themeConfig: {
     logo: 'images/wolf_icon_black.svg',
