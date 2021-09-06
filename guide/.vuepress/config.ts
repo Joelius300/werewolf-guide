@@ -1,6 +1,8 @@
 import { path } from '@vuepress/utils';
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import { createCharactersPage } from './SSR-enhancements/characterSummaries';
+import { createDetailPages } from './SSR-enhancements/characterDetails';
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'de-CH',
@@ -30,7 +32,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         navbar: [
           {
             text: 'Charaktere',
-            link: '/characters.md'
+            link: '/characters/'
           },
           {
             text: 'Inspirationen',
@@ -42,6 +44,10 @@ export default defineUserConfig<DefaultThemeOptions>({
   },
   extendsMarkdown: (md) => {
     md.use(require('markdown-it-footnote'));
+  },
+  onInitialized: async (app) => {
+    createCharactersPage(app);
+    createDetailPages(app);
   },
   plugins: [
     [
