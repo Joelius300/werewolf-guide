@@ -4,7 +4,7 @@ import { Character, characters } from './characters';
 async function createDetailPages(app: App): Promise<void> {
   for (const character of characters) {
     const characterPage = await createPage(app, {
-      path: `/characters/${character.id}.md`,
+      path: `/characters/${character.id}`,
       frontmatter: getHeader(character),
       content: getDetails(character),
     });
