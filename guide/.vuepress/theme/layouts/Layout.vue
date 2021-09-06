@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import Layout from "@vuepress/theme-default/lib/client/layouts/Layout.vue";
+import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue';
 
 export default {
   components: {

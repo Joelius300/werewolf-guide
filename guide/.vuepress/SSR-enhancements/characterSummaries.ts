@@ -1,5 +1,5 @@
-import { App, createPage } from "vuepress";
-import { Character, characters } from "./characters";
+import { App, createPage } from 'vuepress';
+import { Character, characters } from './characters';
 
 const header = {
   lang: 'de-CH',
@@ -7,7 +7,7 @@ const header = {
   description: 'Sammlung von Charakteren für Werwolf / Mafia',
 };
 
-async function createCharactersPage(app: App) {
+async function createCharactersPage(app: App): Promise<void> {
   const content = characters.map(getSummary).join('\n\n');
 
   const charactersPage = await createPage(app, {

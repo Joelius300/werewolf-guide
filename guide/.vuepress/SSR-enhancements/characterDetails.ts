@@ -1,7 +1,7 @@
-import { App, createPage, PageFrontmatter } from "vuepress";
-import { Character, characters } from "./characters";
+import { App, createPage, PageFrontmatter } from 'vuepress';
+import { Character, characters } from './characters';
 
-async function createDetailPages(app: App) {
+async function createDetailPages(app: App): Promise<void> {
   for (const character of characters) {
     const characterPage = await createPage(app, {
       path: `/characters/${character.id}.md`,
@@ -30,16 +30,16 @@ function getDetails(character: Character): string {
     '\n' +
     character.special;
 
-    if (character.variations) {
-      details +=
+  if (character.variations) {
+    details +=
         '\n' +
         '\n' +
-        `### Variationen` +
+        '### Variationen' +
         '\n' +
-        character.variations
-    }
+        character.variations;
+  }
 
-    return details;
+  return details;
 }
 
 export { createDetailPages };

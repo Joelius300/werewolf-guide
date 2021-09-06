@@ -1,3 +1,7 @@
 {
-    "cSpell.language": "en,de"
+  "cSpell.language": "en,de",
+  "cSpell.words": [
+    "linebreak",
+    "vuepress"
+  ]
 }
