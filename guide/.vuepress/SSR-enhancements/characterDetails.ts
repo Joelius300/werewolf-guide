@@ -1,10 +1,11 @@
 import { App, createPage, PageFrontmatter } from 'vuepress';
 import { Character, characters } from './characters';
+import type { SidebarConfigArray } from '@vuepress/theme-default';
 
 async function createDetailPages(app: App): Promise<void> {
   for (const character of characters) {
     const characterPage = await createPage(app, {
-      path: `/characters/${character.id}`,
+      path: `/characters/${character.id}.html`,
       frontmatter: getHeader(character),
       content: getDetails(character),
     });
@@ -60,4 +61,13 @@ function getDetails(character: Character): string {
   return details;
 }
 
-export { createDetailPages };
+function createDetailsSidebar(): SidebarConfigArray {
+  return [
+    {
+      text: 'Charakter Details',
+      children: characters.map((c) => `/characters/${c.id}.html`),
+    },
+  ];
+}
+
+export { createDetailPages, createDetailsSidebar };

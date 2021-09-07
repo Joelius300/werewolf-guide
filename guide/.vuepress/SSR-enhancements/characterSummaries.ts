@@ -11,7 +11,7 @@ async function createCharactersPage(app: App): Promise<void> {
   const content = characters.map(getSummary).join('\n\n');
 
   const charactersPage = await createPage(app, {
-    path: '/characters/',
+    path: '/characterSummaries.html',
     frontmatter: header,
     content,
   });
@@ -20,13 +20,23 @@ async function createCharactersPage(app: App): Promise<void> {
 }
 
 function getSummary(character: Character): string {
-  return '' +
+  let summary =
     `## ${character.name}` +
     '\n' +
     `**Team: ${character.team}**` +
     '\n' +
     '\n' +
     character.special;
+
+  if (hasMoreInfo(character)) {
+    summary += `\n\n[Tipps, Variationen, etc.](./characters/${character.id})`;
+  }
+
+  return summary;
+}
+
+function hasMoreInfo(character: Character): boolean {
+  return !!(character.tips || character.variations || character.tipsModerator);
 }
 
 export { createCharactersPage };

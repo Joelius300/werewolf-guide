@@ -2,7 +2,7 @@ import { path } from '@vuepress/utils';
 import { defineUserConfig } from 'vuepress';
 import type { DefaultThemeOptions } from 'vuepress';
 import { createCharactersPage } from './SSR-enhancements/characterSummaries';
-import { createDetailPages } from './SSR-enhancements/characterDetails';
+import { createDetailPages, createDetailsSidebar } from './SSR-enhancements/characterDetails';
 import mdFootnotes from 'markdown-it-footnote';
 
 export default defineUserConfig<DefaultThemeOptions>({
@@ -35,13 +35,19 @@ export default defineUserConfig<DefaultThemeOptions>({
         navbar: [
           {
             text: 'Charaktere',
-            link: '/characters/',
+            link: './characterSummaries.html',
           },
           {
             text: 'Inspirationen',
-            link: '/inspirations.md',
+            link: './inspirations.html',
           },
         ],
+        sidebar: {
+          '/characters/': createDetailsSidebar(),
+          '/': [
+            '',
+          ],
+        },
       },
     },
   },
@@ -49,8 +55,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     md.use(mdFootnotes);
   },
   onInitialized: async (app) => {
-    createCharactersPage(app);
-    createDetailPages(app);
+    await createDetailPages(app);
+    await createCharactersPage(app);
   },
   plugins: [
     [
