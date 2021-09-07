@@ -72,7 +72,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
     ],
     [
-      '@vuepress/pwa',
+      '@vuepress/plugin-pwa',
       {
         skipWaiting: false,
       },
