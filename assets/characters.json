@@ -12,20 +12,20 @@
     "name": "Werwolf",
     "team": "Werwölfe",
     "special": "Jede Nacht, können alle Werwölfe zusammen ein Opfer wählen, welches sie ermorden werden. Sie müssen sich einstimmig entscheiden, ansonsten stirbt niemand.",
-    "tips": "- Da die Werwölfe niemanden töten können wenn nicht **alle** einverstanden sind, kann man als verliebter Werwolf oder Werwolf in der Mafia gegen Ende des Spiels absichtlich nicht kooperieren und so mehr Kontrolle erlangen. Natürlich macht es auch schon vorher Sinn die anderen Werwölfe zu beeinflussen, um das eigene Ziel zu erreichen."
+    "tips": "Da die Werwölfe niemanden töten können wenn nicht **alle** einverstanden sind, kann man als verliebter Werwolf oder Werwolf in der Mafia gegen Ende des Spiels absichtlich nicht kooperieren und so mehr Kontrolle erlangen. Natürlich macht es auch schon vorher Sinn die anderen Werwölfe zu beeinflussen, um das eigene Ziel zu erreichen."
   },
   {
     "id": "great_werewolf",
     "name": "Urwolf",
     "team": "Werwölfe",
     "special": "Der Urwolf darf einmal im Spiel das gewählte Opfer der Werwölfe in einen Werwolf verwandeln statt es zu töten. Der Heiltrank der Hexe und der Schutz des Beschützers haben keinen Einfluss auf diese Verwandlung. Falls die Person aber nicht \"zuhause\" ist, wird sie nicht verwandelt und die Kräfte gehen verloren. Wenn die Person, die verwandelt werden soll, Besuch hat, wird die richtige Person verwandelt und die andere stirbt.",
-    "tips": "- Der Urwolf ist eine sehr wichtige Figur für die Werwölfe. Du darfst dich bei der Abstimmung der Werwölfe mit Zeichen als Urwolf enttarnen, damit kannst du die Diskussion vielleicht dazu steuern \"Wen wollen wir verwandeln?\".\n- Warte nicht zu lange bis du deine Fähigkeit einsetzt. Falls du vorher stirbst verlieren die Werwölfe neben dir auch noch einen inkognito Werwolf, was ein sehr grosser Nachteil ist. Es mag verlockend sein, herauszufinden, wer der Seher oder die Hexe ist, um diese zu verwandeln aber wenn diese Personen bis zur Verwandlung schon Werwölfe verraten, getötet oder geschwächt hat, ist es schwierig diesen Rückstand aufzuholen. Es kann aber auch zu sehr unterhaltsamen und mindblowing Runden führen, wenn die Verwandlung sehr gezielt gemacht wird, z.B. nachdem sich eine Person ganz klar als Unschuldig bewiesen hat und alle glauben es wurde bereits jemand verwandelt. Den Sweet Spot zu treffen ist aber schwer :sweat_smile:",
+    "tips": "- Der Urwolf ist ein sehr wichtiger Charakter für die Werwölfe. Du darfst dich bei der Abstimmung der Werwölfe mit Zeichen als Urwolf enttarnen, damit kannst du die Diskussion vielleicht dazu steuern \"Wen wollen wir verwandeln?\".\n- Warte nicht zu lange bis du deine Fähigkeit einsetzt. Falls du vorher stirbst, verlieren die Werwölfe neben dir auch noch einen inkognito Werwolf, was ein sehr grosser Nachteil ist. Es mag verlockend sein, herauszufinden, wer der Seher oder die Hexe ist, um diese zu verwandeln aber wenn diese Personen bis zur Verwandlung schon Werwölfe verraten, getötet oder geschwächt hat, ist es schwierig diesen Rückstand aufzuholen. Es kann aber auch zu sehr unterhaltsamen und mindblowing Runden führen, wenn die Verwandlung sehr gezielt gemacht wird, z.B. nachdem sich eine Person ganz klar als Unschuldig bewiesen hat und alle glauben es wurde bereits jemand verwandelt. Den Sweet Spot zu treffen ist aber schwer :sweat_smile:",
     "tipsModerator": "Sage vor der Runde ganz klar wie das mit dem Urwolf abläuft, damit es später nicht zu Verwirrungen führt. Mein Weg ist es, am Ende der Werwolfabstimmung, kurz bevor die Werwölfe wieder einschlafen und etwa um die Zeit wo der Urwolf sein Zeichen abgibt, zu beginnen um den Kreis der Spieler zu gehen. Wenn der Urwolf sein Zeichen macht (und ich sage vor den Runden jeweils, dass dieses Zeichen wirklich klar und deutlich sein muss, denn Fehler mit dem Urwolf sind fast unmöglich rückgängig zu machen), tippe ich das Opfer an, wenn ich bei ihm vorbeigehe. Sidenote: auch wenn es nicht optimal ist, wenn die anderen Werwölfe das Zeichen sehen, es ist sehr schwer dies zu verhindern und hat das Spiel meines Wissens noch nie gestört. Wenn die Werwölfe eingeschlafen sind, wacht die Hexe auf. Ihr wird das Opfer ganz normal gezeigt. Wenn sie ihren Heiltrank einsetzt, geht dieser verloren und das Opfer wird trotzdem verwandelt. Dies wird bis zum Ende des Spiels wiederholt (wenn das verwandelte Opfer oder der Urwolf stirbt und dies allen gesagt wird, ist es natürlich nicht mehr nötig).  \nMit dieser Technik gelingt es mir (meistens) zu verhindern, dass das Dorf erfährt wann und wer zum Werwolf verwandelt wurde."
   },
   {
     "id": "white_werewolf",
     "name": "Weisser Werwolf",
-    "team": "Weisser Werwolf",
+    "team": "Einzelgänger",
     "special": "Der weisse Werwolf ist zwar ein Werwolf aber spielt für sich alleine und kann nur als letzte Person im Spiel gewinnen. Neben der normalen Werwolfnacht, wacht er zusätzlich jede zweite Nacht ohne die anderen Werwölfe auf und darf ein weiteres Opfer wählen. Die Hexe kann dieses nicht retten aber der Schutz des Beschützers & der Dorfmatratze schützen vom weissen Werwolf.",
     "tips": "- Da die Werwölfe niemanden töten können wenn nicht **alle** einverstanden sind, kann man als weisser Werwolf gegen Ende des Spiels absichtlich nicht kooperieren und so mehr Kontrolle erlangen.\n- Du musst deine Identität sowohl vor dem Dorf wie auch vor den Werwölfen geheimhalten. Behalte allerdings im Hinterkopf, dass die Werwölfe dich in der normalen Werwolfabstimmung nicht töten können, da es nie einstimmig sein wird."
   },
@@ -34,7 +34,7 @@
     "name": "Wildes Kind",
     "team": "Dorf / Werwölfe",
     "special": "Das wilde Kind wählt in der ersten Nacht ein Vorbild. Sobald dieses Vorbild tot ist, wird das wilde Kind zum normalen Werwolf. Vorher hat es die Rolle eines normalen Dorfbewohners. Der Bär und der Fuchs sehen das Kind also erst als Gefahr an, wenn es verwandelt wurde. Der Seher sieht jedoch die Karte und somit auch, dass es sich noch verwandeln könnte.\n\nEigentlich spielt das wilde Kind bis zur Verwandlung für das Dorf, heisst es möchte sein Vorbild beschützen. Es ist aber auch erlaubt, das Dorf schon von Beginn an zu sabotieren, in der Hoffnung später zu einem Werwolf zu werden. Dabei ist jedoch nicht zu vergessen, wenn man vor dem Vorbild oder das Vorbild gar nicht stirbt, gewinnt man mit dem Dorf, welches durch die Sabotagen verlieren könnte.",
-    "tips": "- Da man nur mit den Werwölfen gewinnen kann, wenn das Vorbild vor einem selbst stirbt, ist es möglich, sich gegen das Vorbild zu wenden, wenn man merkt, dass die Werwölfe kurz vor dem Sieg sind und das Vorbild noch lebt. Es ist aber auch eine mögliche und ehrenhafte Spielart seiner aktuellen Identität treu zu bleiben und das Vorbild solange es geht zu beschützen."
+    "tips": "Da man nur mit den Werwölfen gewinnen kann, wenn das Vorbild vor einem selbst stirbt, ist es möglich, sich gegen das Vorbild zu wenden, wenn man merkt, dass die Werwölfe kurz vor dem Sieg sind und das Vorbild noch lebt. Es ist aber auch eine mögliche und ehrenhafte Spielart seiner aktuellen Identität treu zu bleiben und das Vorbild solange es geht zu beschützen."
   },
   {
     "id": "cupid",
@@ -47,19 +47,22 @@
     "id": "witch",
     "name": "Hexe",
     "team": "Dorf",
-    "special": "Jede Nacht, nachdem die Werwölfe ihr Opfer bestimmt haben, erwacht die Hexe und ihr wird das Opfer gezeigt. Die Hexe verfügt über zwei Tränke, einen Heiltrank und einen Gifttrank. Mit dem Heiltrank kann sie das Opfer vom Sterben bewahren. Mit dem Gifttrank kann sie eine andere Person umbringen. Sie darf beide Tränke in derselben Nacht verwenden."
+    "special": "Jede Nacht, nachdem die Werwölfe ihr Opfer bestimmt haben, erwacht die Hexe und ihr wird das Opfer gezeigt. Die Hexe verfügt über zwei Tränke, einen Heiltrank und einen Gifttrank. Mit dem Heiltrank kann sie das Opfer vom Sterben bewahren. Mit dem Gifttrank kann sie eine andere Person umbringen. Sie darf beide Tränke in derselben Nacht verwenden.",
+    "tips": "Behalte im Hinterkopf, dass dein Heiltrank keine Wirkung hat wenn: Die Person vom Beschützer beschützt wurde, die Person nicht zuhause ist (Dorfmatratze) oder die Person verwandelt wurde. Verwende ihn aber trotzdem nicht zu spät, du selbst kannst auch sterben."
   },
   {
     "id": "seer",
     "name": "Seher",
     "team": "Dorf",
-    "special": "Jede Nacht darf der Seher die Karte eines Mitspielers anschauen."
+    "special": "Jede Nacht darf der Seher die Karte eines Mitspielers anschauen.",
+    "tips": "Nicht vergessen: Du siehst zwar die exakte Karte aber erfährst nicht, ob die Person verliebt, verwandelt oder in der Mafia ist."
   },
   {
     "id": "fox",
     "name": "Fuchs",
     "team": "Dorf",
-    "special": "Jede zweite Nacht darf der Fuchs eine Dreiergruppe (drei lebende Spieler nebeneinander) inspizieren und erfährt, ob es in dieser Gruppe einen Werwolf hat (egal ob verwandelt oder nicht)."
+    "special": "Jede zweite Nacht darf der Fuchs eine Dreiergruppe (drei lebende Spieler nebeneinander) inspizieren und erfährt, ob es in dieser Gruppe einen Werwolf hat (egal ob verwandelt oder nicht).",
+    "tips": "Nicht vergessen: Du erfährst nicht, ob die Person in der Mafia ist. Ebenfalls könnte sie später noch verwandelt werden (Wildes Kind, Urwolf)."
   },
   {
     "id": "guardian",
@@ -89,24 +92,37 @@
     "id": "bear",
     "name": "Bär",
     "team": "Dorf",
-    "special": "Der Bär hat eine passive Fähigkeit. Jeden Morgen brummt es wenn links oder rechts neben ihm (Tote ausgeschlossen) ein Werwolf sitzt (auch verwandelt)."
+    "special": "Der Bär hat eine passive Fähigkeit. Jeden Morgen brummt es, wenn links oder rechts neben ihm (Tote ausgeschlossen) ein Werwolf sitzt (auch verwandelt).",
+    "tips": "- Passe immer genau auf wer wo stirbt (Tipp für alle). Wenn jemand auf der anderen Seite stirbt und es am Morgen brummt, sitzt neben dir wahrscheinlich das frisch verwandelte wilde Kind.\n- Es ist verlockend schon sehr früh Informationen über sich zu verraten aber sei vorsichtig, du könntest zu einem leichten Ziel werden."
   },
   {
     "id": "siblings",
     "name": "Geschwister",
     "team": "Dorf",
-    "special": "Die Geschwister spielen für das Dorf aber sie kennen sich und können somit für einander einstehen. Ab und zu haben sie die Möglichkeit aufzuwachen und miteinander still zu kommunizieren. Es gibt verschiedene Geschwister-Gruppen, nämlich: 2 Schwestern & 3 Brüder."
+    "special": "Die Geschwister spielen für das Dorf aber sie kennen sich und können somit für einander einstehen. Sie sind sehr starke Rollen, da sie Ausschlussverfahren deutlich vereinfachen können. Ab und zu haben sie die Möglichkeit aufzuwachen und miteinander still zu kommunizieren. Es gibt verschiedene Geschwister-Gruppen, nämlich: 2 Schwestern & 3 Brüder."
   },
   {
     "id": "mafiaboss",
-    "name": "Mafia Boss",
+    "name": "Mafiaboss",
     "team": "Mafia",
-    "special": "Jede zweite Nacht wählt der Mafiaboss ein neues Mitglied in die Mafia auf ein Maximum von einem Viertel der Spieler. Die Personen der Mafia versuchen alle anderen Spieler auszuschalten und als letztes zu leben. Die Mafia hat eine höhere Priorität als Werwölfe aber eine tiefere als das Pärchen. Er muss beschützt werden, denn wenn der Mafia Boss stirbt, löst sich die Mafia auf und die Personen werden wieder \"normal\"."
+    "special": "Jede zweite Nacht wählt der Mafiaboss ein neues Mitglied in die Mafia auf ein Maximum von einem Viertel der Spieler. Die Personen der Mafia versuchen alle anderen Spieler auszuschalten und als letztes zu leben. Die Mafia hat eine höhere Priorität als Werwölfe aber eine tiefere als das Pärchen. Der Mafiaboss muss beschützt werden, denn wenn er stirbt, löst sich die Mafia auf und die Personen werden wieder \"normal\". Ebenfalls verbringen die ehemaligen Mafiamitglieder die Nacht nach dem Tod des Bosses mit Trauer und können keine Fähigkeiten einsetzen.",
+    "variations": "Wenn die Karten beim Tod aufgedeckt werden, kann man auch machen, dass die ehemaligen Mafiamitglieder auch am Tag nach dem Tod nicht an der Diskussion/Abstimmung teilnehmen können. Hierbei wird es aber noch wichtiger, dass nicht verraten wird, welche Rollen in der Mafia waren.",
+    "tips": "- Beachte, wenn der letzte Werwolf stirbt und noch non-Mafia Dorfbewohner leben, gewinnt das Dorf und die Mafia verliert.\n- Die Personen werden nach dem Tot des Bosses normal aufgerufen in der Nacht, damit niemand merkt, welche Rollen in der Mafia waren. Du darfst aber trotzdem deine Fähigkeit nicht einsetzen und schläfst weiter. Das gilt auch für Geschwister und Werwölfe (sie würden logischerweise erfahren, wenn du in der Mafia warst). Wenn du trotzdem aufwachst, wird dir der Moderator ein Zeichen geben, dass du einschlafen sollst.",
+    "tipsModerator": "Die Nachtaktion-Verweigerung für die ehemaligen Mafiamitglieder muss im geheimen geschehen. Es muss sichergestellt werden, dass man nicht herausfinden kann, welche Rollen in der Mafia waren. Das bedeutet, dass alle Personen normal aufgerufen werden müssen, obwohl sie ihre Aktion nicht durchführen können. Wenn Werwölfe oder Geschwister in der Mafia waren, werden die übrigen der Gruppe natürlich erfahren, dass diese Personen in der Mafia waren. Dies ist okay, da es komplex wird wenn man dies umgehen möchte. Ebenfalls kann man davon ausgehen, dass liebe ehemalige Mitglieder dem Dorf sowieso bekanntgeben werden, dass die Mafia nun ausgerottet wurde. Gleich ist es mit den bösen ehemaligen Mitglieder, welche es den anderen Werwölfen mimen werden. Behaupten kann dies aber jeder und die einzigen, die es zu 100% wissen können sind Werwölfe und Geschwister. Um es aber zu bestätigen, müssten sie sich offenbaren, was die Werwölfe sicher nicht tun werden und so bleiben nur noch die Geschwister, welche doch nun tatsächlich familiäre Geheimnisse erfahren können :smile:"
   },
   {
     "id": "old_dude",
     "name": "Alter Sack",
     "team": "Einzelgänger",
-    "special": "Bevor die Karten verteilt werden, wird ein Merkmal ausgewählt, welches die Spieler in zwei Gruppen teilt (z.B. Haarfarbe, Brillenträger, Geschlecht). Der alte Sack gewinnt, wenn alle Personen, welche nicht seiner Gruppe angehören, tot sind und er selbst noch lebt."
+    "special": "Bevor die Karten verteilt werden, wird ein sichtbares Merkmal ausgewählt, welches die Spieler in zwei Gruppen teilt (z.B. Haarfarbe, Brillenträger, (Geschlecht)). Der alte Sack gewinnt, wenn alle Personen, welche nicht seiner Gruppe angehören, tot sind und er selbst noch lebt.",
+    "tipsModerator": "Sag vor dem Spiel, dass sich der alte Sack selbst auch melden soll, wenn er gewonnen hat, falls der Moderator dies vergisst (was sehr einfach ist)."
+  },
+  {
+    "id": "maid",
+    "name": "Magd",
+    "team": "Dorf / Unklar",
+    "special": "Die Magd kann sich direkt nach der Ankündigung eines Todes (aber vor dem Aufdecken der Karte) als dessen Magd offenbaren und die Karte sowie den Platz der gerade gestorbenen Person übernehmen. Wenn die Magd verliebt ist, darf sie das nicht. Wenn die Magd verwandelt oder in der Mafia war, bleibt sie das auch weiterhin als den neuen Charakter. Wenn der verstorbene Charakter verwandelt, verliebt oder in der Mafia war, ist dies die Magd **nicht** mehr.",
+    "tips": "Da die Verwandlung einer Person nicht an die Magd übergeben wird, kann sie verwendet werden, um verwandelte zu \"heilen\". Wenn die Hexe nämlich verwandelt wurde, kann das Dorf sie töten, die Magd ihren Charakter übernehmen und nun hat das Dorf wieder eine Hexe, die nicht mehr verwandelt ist.",
+    "tipsModerator": "Wenn so gespielt wird, dass die Karten nach dem Tod aufgedeckt werden, stelle sicher, dass die Toten ihre Karten nicht zu schnell aufdecken, damit die Magd genügend Zeit hat einzuspringen."
   }
 ]

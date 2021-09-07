@@ -26,7 +26,7 @@ function getDetails(character: Character): string {
   let details =
     `# ${character.name}` +
     '\n' +
-    `**Team: ${character.team}**` +
+    `**Team: ${character.team}**` + // we could use <Badge /> here maybe?
     '\n' +
     '\n' +
     character.special;
