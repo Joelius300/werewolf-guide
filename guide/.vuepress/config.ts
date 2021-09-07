@@ -35,11 +35,11 @@ export default defineUserConfig<DefaultThemeOptions>({
         navbar: [
           {
             text: 'Charaktere',
-            link: './characterSummaries.html',
+            link: '/characterSummaries.html',
           },
           {
             text: 'Inspirationen',
-            link: './inspirations.html',
+            link: '/inspirations.html',
           },
         ],
         sidebar: {

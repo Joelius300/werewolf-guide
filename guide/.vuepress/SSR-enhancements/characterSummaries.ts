@@ -29,7 +29,7 @@ function getSummary(character: Character): string {
     character.special;
 
   if (hasMoreInfo(character)) {
-    summary += `\n\n[Tipps, Variationen, etc.](./characters/${character.id})`;
+    summary += `\n\n<RouterLink to="/characters/${character.id}.html">Tipps, Variationen, etc.</RouterLink>`;
   }
 
   return summary;

@@ -10,10 +10,10 @@
         </a>
         <br />
           Diese Webseite und deren Inhalt sind lizenziert unter 
-        <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/"><abbr title="Creative Commons Attribution-ShareAlike 4.0 International License">CC BY-SA 4.0</abbr><OutboundLink/></a>.
         <br />
           Das Wolf-Icon gehört 
-        <a target="_blank" rel="noopener noreferrer" href="https://www.mcicon.com/product/wolf-icon-15/">MCICON</a>.
+        <a target="_blank" rel="noopener noreferrer" href="https://www.mcicon.com/product/wolf-icon-15/">MCICON<OutboundLink/></a>.
       </div>
     </template>
   </Layout>
