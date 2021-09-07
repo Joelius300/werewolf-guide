@@ -71,5 +71,22 @@ export default defineUserConfig<DefaultThemeOptions>({
         notFoundPath: '/404.html',
       },
     ],
+    [
+      '@vuepress/pwa',
+      {
+        skipWaiting: false,
+      },
+    ],
+    [
+      '@vuepress/plugin-pwa-popup',
+      {
+        locales: {
+          '/': {
+            message: 'Neue Inhalte sind verfügbar.',
+            buttonText: 'Neu laden',
+          },
+        },
+      },
+    ],
   ],
 });
