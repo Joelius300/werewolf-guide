@@ -39,6 +39,24 @@ function getDetails(character: Character): string {
         character.variations;
   }
 
+  if (character.tips) {
+    details +=
+        '\n' +
+        '\n' +
+        '### Tipps' +
+        '\n' +
+        character.tips;
+  }
+
+  if (character.tipsModerator) {
+    details +=
+        '\n' +
+        '\n' +
+        '### Tipps für Moderator' +
+        '\n' +
+        character.tipsModerator;
+  }
+
   return details;
 }
 
