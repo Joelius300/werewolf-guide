@@ -2,16 +2,20 @@
   "name": "werewolf_guide",
   "version": "1.0.0",
   "description": "Sammlung von Regeln und Charakteren für das Spiel Werwolf (Mafia)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joelius300/werewolf-guide.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev guide",
     "build": "vuepress build guide"
   },
   "author": "Joel Liechti",
-  "license": "CC BY-SA 4.0",
+  "license": "CC-BY-SA-4.0",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.30.0",
-    "@typescript-eslint/parser": "^4.30.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
     "@vuepress/plugin-pwa": "^2.0.0-beta.25",
     "@vuepress/plugin-pwa-popup": "^2.0.0-beta.25",
     "@vuepress/plugin-search": "^2.0.0-beta.25",
