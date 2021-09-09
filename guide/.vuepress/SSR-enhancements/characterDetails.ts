@@ -1,5 +1,5 @@
 import { App, createPage, PageFrontmatter } from 'vuepress';
-import { Character, characters } from './characters';
+import { Character, characters, getTeamBadgeHtml } from './characters';
 import type { SidebarConfigArray } from '@vuepress/theme-default';
 
 async function createDetailPages(app: App): Promise<void> {
@@ -24,21 +24,10 @@ function getHeader(character: Character): PageFrontmatter {
 
 function getDetails(character: Character): string {
   let details =
-    `# ${character.name}` +
-    '\n' +
-    `**Team: ${character.team}**` + // we could use <Badge /> here maybe?
+    `# ${character.name} ${getTeamBadgeHtml(character.team)}` +
     '\n' +
     '\n' +
     character.special;
-
-  if (character.variations) {
-    details +=
-        '\n' +
-        '\n' +
-        '### Variationen' +
-        '\n' +
-        character.variations;
-  }
 
   if (character.tips) {
     details +=
@@ -56,6 +45,15 @@ function getDetails(character: Character): string {
         '### Tipps für Moderator' +
         '\n' +
         character.tipsModerator;
+  }
+
+  if (character.variations) {
+    details +=
+        '\n' +
+        '\n' +
+        '### Variationen' +
+        '\n' +
+        character.variations;
   }
 
   return details;

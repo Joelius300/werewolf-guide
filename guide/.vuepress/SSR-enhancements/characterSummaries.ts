@@ -1,5 +1,5 @@
 import { App, createPage } from 'vuepress';
-import { Character, characters } from './characters';
+import { Character, characters, getTeamBadgeHtml } from './characters';
 
 const header = {
   lang: 'de-CH',
@@ -21,9 +21,7 @@ async function createCharactersPage(app: App): Promise<void> {
 
 function getSummary(character: Character): string {
   let summary =
-    `## ${character.name}` +
-    '\n' +
-    `**Team: ${character.team}**` +
+    `## ${character.name} ${getTeamBadgeHtml(character.team)}` +
     '\n' +
     '\n' +
     character.special;

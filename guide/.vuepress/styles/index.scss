@@ -1,0 +1,19 @@
+span.badge {
+  background-color: #888;
+
+  &.village {
+    background-color: var(--c-badge-tip);
+  }
+
+  &.wolf {
+    background-color: var(--c-badge-danger);
+  }
+
+  &.mafia {
+    background-color: var(--c-badge-warning);
+  }
+
+  &.lone {
+    background-color: #473B53;
+  }
+}
