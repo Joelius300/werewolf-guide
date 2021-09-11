@@ -28,7 +28,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         repoLabel: 'Projekt',
         docsRepo: 'https://github.com/Joelius300/werewolf-guide',
         docsBranch: 'master',
-        editLinkText: 'Passt dr öppis nid?',
+        editLink: false,
         docsDir: 'guide',
         lastUpdated: false,
         contributorsText: 'Autoren',
