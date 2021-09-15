@@ -34,6 +34,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         contributorsText: 'Autoren',
         navbar: [
           {
+            text: 'Regeln',
+            link: '/rules/',
+          },
+          {
             text: 'Charaktere',
             link: '/characterSummaries.html',
           },
@@ -44,6 +48,20 @@ export default defineUserConfig<DefaultThemeOptions>({
         ],
         sidebar: {
           '/characters/': createDetailsSidebar(),
+          '/rules/': [
+            {
+              text: 'Regeln',
+              children: [
+                'README.md',
+                'teams.md',
+                {
+                  text: 'Charaktere',
+                  link: '../characterSummaries.html',
+                },
+                'variations.md',
+              ],
+            },
+          ],
           '/': [
             '',
           ],

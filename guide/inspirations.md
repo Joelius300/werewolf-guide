@@ -10,7 +10,7 @@ description: Inspirationen für den Werwolf Guide
 [Ultimate Werewolf](https://en.wikipedia.org/wiki/Ultimate_Werewolf) ist eine Werwolf Version erstellt von Ted Alspach und veröffentlicht von Bézier Games, Inc.  
 Das Spiel diente als Inspiration bei verschiedenen Karten. Dieser Guide stellt keine Reproduktion dar.
 
-Ultimate Werewolf spielt sich deutlich anders als das hier beschriebene Werwolf, ist aber ein super Spiel für kleinere Gruppen bis 10 Personen.  
+One Night Ultimate Werewolf (Variante von Ultimate Werewolf) spielt sich deutlich anders als das hier beschriebene Werwolf, ist aber ein super Spiel für kleinere Gruppen bis 10 Personen.  
 
 
 ### Die Werwölfe von Düsterwald

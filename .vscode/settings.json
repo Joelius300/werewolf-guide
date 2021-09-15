@@ -9,5 +9,7 @@
     "weissen",
     "Weisser"
   ],
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "cSpell.enabled": true,
+  "markdown.extension.toc.updateOnSave": false
 }

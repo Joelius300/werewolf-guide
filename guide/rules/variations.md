@@ -1,0 +1,28 @@
+---
+lang: de-CH
+title: Variationen
+description: Variationen für Werwolf / Mafia Regeln
+---
+
+## Kanadische Variante
+In dieser Variante findet vor den Abstimmungen jeweils eine Austauschrunde statt, wo sich die Spieler frei im Raum bewegen und miteinander sprechen können. Dadurch kann man nun endlich tun was sonst immer verboten war, nämlich mit jemandem reden, ohne, dass es die anderen hören.  
+Diese Variante spielt man ohne Karten aufdecken. Das bedeutet, beim Tod einer Person wird dessen Rolle nicht offenbart, was für mehr Strategie, Lügen und Bluffen erlaubt. Es macht das Spiel anspruchsvoller, öffnet aber viele Türen für ein spannenderes Spiel.  
+
+### FAQ für Spieler
+#### Was darf man alles sagen?
+Wie schon im normalen Spiel, sagen dürft ihr alles. Die Karte bleibt am Platz (und sie zu zeigen bleibt natürlich weiterhin verboten).
+
+#### Mit wem darf ich sprechen?
+Ihr dürft mit jeder Person sprechen, inklusiven den Toten. Die lebendigen Spieler sind selbst verantwortlich was sie sagen und wer es hören könnte. 
+
+#### Was dürfen die toten denn sagen?
+Ausgeschiedenen Spielern ist es strengstens verboten Informationen an lebendige Spieler weiterzugeben. Einfach sonst zu plaudern ist natürlich erlaubt und nur zuzuhören sowieso.  
+Seid euch einfach bitte bewusst, dass ihr mit einer falschen Aussage sehr schnell das Spiel ruinieren könnt und hält eure Aussagen und Reaktionen entsprechend zurück. Dies gilt auch wenn tote mit toten sprechen und lebende in der Nähe sind.
+
+#### Darf ich andere belauschen?
+Andere Spieler zu belauschen und beobachten ist erlaubt aber andere Spieler zu belästigen, verfolgen/nachrennen oder sonstwie stören ist verboten. Es sollen sich alle Spieler wohl fühlen und ihr als Spieler werdet gebeten dies sicherzustellen. Sprecht Probleme mit Vertrauenspersonen und dem Moderator an.
+
+### Infos für Moderator
+- Wenn sich lebendige und tote Spieler am Tag vermischen, sollten die lebendigen Spieler klar gekennzeichnet werden.
+- Wenn sich viele Spieler nicht kennen, macht es Sinn, die Personen mit deren Namen zu beschriften.
+- Da dieses Format die Länge der bereits zeitaufwändigen Werwolfrunden deutlich erhöht, sollte es Beschäftigungen für die ausgeschiedenen Spieler geben. Wenn das Spiel als Party Spiel gespielt wird, ist das kein Problem, da die ausgeschiedenen Spieler zur Party zurückkehren können. Wenn nicht, kann man ihnen z.B. einen Rückzugsort geben und dort ev. noch kleinere Spiele bereitlegen.
