@@ -11,7 +11,7 @@ async function createCharactersPage(app: App): Promise<void> {
   const content = characters.map(getSummary).join('\n\n');
 
   const charactersPage = await createPage(app, {
-    path: '/characterSummaries.html',
+    path: '/rules/characterSummaries.html',
     frontmatter: header,
     content,
   });
@@ -27,7 +27,7 @@ function getSummary(character: Character): string {
     character.special;
 
   if (hasMoreInfo(character)) {
-    summary += `\n\n<RouterLink to="/characters/${character.id}.html">Tipps, Variationen, etc.</RouterLink>`;
+    summary += `\n\n<RouterLink to="/rules/characters/${character.id}.html">Tipps, Variationen, etc.</RouterLink>`;
   }
 
   return summary;

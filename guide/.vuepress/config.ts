@@ -38,8 +38,8 @@ export default defineUserConfig<DefaultThemeOptions>({
             link: '/rules/',
           },
           {
-            text: 'Charaktere',
-            link: '/characterSummaries.html',
+            text: 'Charakter-Details',
+            link: '/rules/characters/villager.html',
           },
           {
             text: 'Inspirationen',
@@ -47,21 +47,18 @@ export default defineUserConfig<DefaultThemeOptions>({
           },
         ],
         sidebar: {
-          '/characters/': createDetailsSidebar(),
           '/rules/': [
             {
               text: 'Regeln',
               children: [
                 'README.md',
                 'teams.md',
-                {
-                  text: 'Charaktere',
-                  link: '../characterSummaries.html',
-                },
+                'characterSummaries.html',
                 'variations.md',
               ],
             },
           ],
+          '/rules/characters/': createDetailsSidebar(),
           '/': [
             '',
           ],

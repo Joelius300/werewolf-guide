@@ -7,7 +7,7 @@ description: Teams / Allianzen für Werwolf / Mafia
 # Teams
 Jeder Charakter hat ein Team mit welchem er startet. Es ist aber nicht selten, dass sich das Team eines Spielers verändert. Dies kann zum Beispiel durch eine Verwandlung des [Urwolfs](../characters/great_werewolf.html) oder einem Schuss des [Amors](../characters/cupid.html) geschehen.
 
-Wenn ein Team gewonnen hat, ist das Spiel vorbei und die anderen Teams können nicht mehr gewinnen. Deshalb ist es z.B. für den [Weissen Werwolf](../characters/white_werwolf.html) wichtig, den letzten Dorfbewohner nicht zu töten, wenn noch ein anderer Werwolf lebt, sonst gewinnen die Werwölfe und er selbst hat verloren.
+Wenn ein Team gewonnen hat, ist das Spiel vorbei und die anderen Teams können nicht mehr gewinnen. Deshalb ist es z.B. für den [Weissen Werwolf](../characters/white_werewolf.html) wichtig, den letzten Dorfbewohner nicht zu töten, wenn noch ein anderer Werwolf lebt, sonst gewinnen die Werwölfe und er selbst hat verloren.
 
 ## Reihenfolge
 Da das Team einer Person ändern kann, ist es wichtig zu wissen, welches Team jetzt zählt.  
