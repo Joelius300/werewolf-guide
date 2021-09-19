@@ -39,7 +39,7 @@ export default defineUserConfig<DefaultThemeOptions>({
           },
           {
             text: 'Charakter-Details',
-            link: '/rules/characters/villager.html',
+            link: '/rules/characters/',
           },
           {
             text: 'Inspirationen',
