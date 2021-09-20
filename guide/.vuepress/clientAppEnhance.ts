@@ -5,7 +5,7 @@ export default defineClientAppEnhance(({ router }) => {
   // ~~to prevent this you have to define the redirects on your webserver as well.~~
   // ~~in GitHub Pages, you'd do this with https://spa-github-pages.rafgraph.dev/ probably.~~
   // Amazingly, it already works out of the Box (probably VuePress being awesome again).
-  // The only not accounted for is SEO, as described here: https://github.com/rafgraph/spa-github-pages#seo
+  // The only thing not accounted for is SEO, as described here: https://github.com/rafgraph/spa-github-pages#seo
   
   router.addRoute({
     path: '/rules/characters/',
