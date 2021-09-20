@@ -19,6 +19,7 @@ function getHeader(character: Character): PageFrontmatter {
     lang: 'de-CH',
     title: character.name,
     description: `Regeln, Erklärungen, etc. zum Charakter ${character.name}`,
+    editLink: false, 
   };
 }
 

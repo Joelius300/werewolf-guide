@@ -5,6 +5,7 @@ const header = {
   lang: 'de-CH',
   title: 'Charaktere',
   description: 'Sammlung von Charakteren für Werwolf / Mafia',
+  editLink: false,
 };
 
 async function createCharactersPage(app: App): Promise<void> {
