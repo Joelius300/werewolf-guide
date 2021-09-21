@@ -2,6 +2,14 @@
 lang: de-CH
 title: Einführung
 description: Einführung zum Werwolf Guide
+home: true
+actions:
+  - text: Direkt zu Charakteren
+    link: /rules/characters/
+    type: primary
+  - text: Alle Regeln
+    link: /rules/
+    type: secondary
 ---
 
 # Einführung
