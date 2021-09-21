@@ -74,6 +74,14 @@ export default defineUserConfig<DefaultThemeOptions>({
     await createDetailPages(app);
     await createCharactersPage(app);
   },
+  // onWatched: async (app, watchers) => {
+  /* If you want hot reload for the generated pages,
+   * you'll have to implement it yourself.
+   * Here's an issue: https://github.com/vuepress/vuepress-next/issues/294
+   * Docs: https://v2.vuepress.vuejs.org/reference/plugin-api.html#onwatched
+   * Reference: https://github.com/vuepress/vuepress-next/blob/main/packages/@vuepress/cli/src/commands/dev/watchPageFiles.ts#L10-L13
+   */
+  // },
   plugins: [
     [
       '@vuepress/plugin-search',
