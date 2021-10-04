@@ -4,6 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, watch, onBeforeMount } from 'vue';
+import { get as getIDB, set as setIDB } from 'idb-keyval';
 
 export default defineComponent({
   /* props: {
@@ -14,9 +15,9 @@ export default defineComponent({
     const key = 'test_counter';
     const counter = ref(0);
 
-    onBeforeMount(() => counter.value = +localStorage.getItem(key));
+    onBeforeMount(async () => counter.value = await getIDB<number>(key) ?? 0);
 
-    watch(() => counter.value, c => localStorage.setItem(key, c.toString()));
+    watch(() => counter.value, c => setIDB(key, c));
 
     return {
       counter,

@@ -27,6 +27,7 @@
     "vuepress-plugin-clean-urls": "^1.1.2"
   },
   "dependencies": {
-    "plausible-tracker": "^0.3.1"
+    "plausible-tracker": "^0.3.1",
+    "idb-keyval": "^6.0.2"
   }
 }
