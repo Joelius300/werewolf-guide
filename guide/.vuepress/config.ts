@@ -1,8 +1,8 @@
 import { path } from '@vuepress/utils';
 import { defineUserConfig } from 'vuepress';
 import type { DefaultThemeOptions } from 'vuepress';
-import { createCharactersPage } from './SSR-enhancements/characterSummaries';
-import { createDetailPages, createDetailsSidebar } from './SSR-enhancements/characterDetails';
+import { createCharactersPage } from './pageGeneration/characterSummaries';
+import { createDetailPages, createDetailsSidebar } from './pageGeneration/characterDetails';
 import mdFootnotes from 'markdown-it-footnote';
 
 export default defineUserConfig<DefaultThemeOptions>({
