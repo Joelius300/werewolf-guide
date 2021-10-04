@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, watch } from 'vue';
+import { defineComponent, ref, watch, onBeforeMount } from 'vue';
 
 export default defineComponent({
   /* props: {
@@ -11,10 +11,12 @@ export default defineComponent({
   }, */
   setup() {
     // const counter = ref(props.startValue);
-    const init = +localStorage.getItem('test_counter');
+    const key = 'test_counter';
+    const counter = ref(0);
 
-    const counter = ref(init);
-    watch(() => counter.value, c => localStorage.setItem('test_counter', c.toString()));
+    onBeforeMount(() => counter.value = +localStorage.getItem(key));
+
+    watch(() => counter.value, c => localStorage.setItem(key, c.toString()));
 
     return {
       counter,
