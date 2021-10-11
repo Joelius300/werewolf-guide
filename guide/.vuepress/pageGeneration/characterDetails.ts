@@ -1,8 +1,19 @@
 import { App, createPage, PageFrontmatter } from 'vuepress';
-import { Character, characters, getTeamBadgeHtml } from './characters';
+import { Character, characters, getSortedCharacters, getTeamBadgeHtml } from './characters';
 import type { SidebarConfigArray } from '@vuepress/theme-default';
 
 async function createDetailPages(app: App): Promise<void> {
+  const indexPage = await createPage(app, {
+    path: '/rules/characters/',
+    frontmatter: {
+      lang: 'de-CH',
+      title: 'Charakter-Details',
+    },
+    content: getIndexContent(),
+  });
+
+  app.pages.push(indexPage);
+
   for (const character of characters) {
     const characterPage = await createPage(app, {
       path: `/rules/characters/${character.id}.html`,
@@ -21,6 +32,16 @@ function getHeader(character: Character): PageFrontmatter {
     description: `Regeln, Erklärungen, etc. zum Charakter ${character.name}`,
     editLink: false, 
   };
+}
+
+function getIndexContent(): string {
+  let content = '# Charaktere\n';
+
+  for (const character of getSortedCharacters()) {
+    content += `###### <RouterLink to="${getCharacterDetailsPath(character)}">${character.name}  ${getTeamBadgeHtml(character.team)}</RouterLink>\n`;
+  }
+
+  return content;
 }
 
 function getDetails(character: Character): string {
@@ -64,9 +85,13 @@ function createDetailsSidebar(): SidebarConfigArray {
   return [
     {
       text: 'Charakter Details',
-      children: characters.map((c) => `/rules/characters/${c.id}.html`),
+      children: getSortedCharacters().map(getCharacterDetailsPath),
     },
   ];
 }
 
-export { createDetailPages, createDetailsSidebar };
+function getCharacterDetailsPath(character: Character): string {
+  return `/rules/characters/${character.id}.html`;
+}
+
+export { createDetailPages, createDetailsSidebar, getCharacterDetailsPath };

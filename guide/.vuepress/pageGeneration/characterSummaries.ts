@@ -1,4 +1,5 @@
 import { App, createPage } from 'vuepress';
+import { getCharacterDetailsPath } from './characterDetails';
 import { Character, characters, getTeamBadgeHtml } from './characters';
 
 const header = {
@@ -28,7 +29,7 @@ function getSummary(character: Character): string {
     character.special;
 
   if (hasMoreInfo(character)) {
-    summary += `\n\n<RouterLink to="/rules/characters/${character.id}.html">Tipps, Variationen, etc.</RouterLink>`;
+    summary += `\n\n<RouterLink to="${getCharacterDetailsPath(character)}">Tipps, Variationen, etc.</RouterLink>`;
   }
 
   return summary;
