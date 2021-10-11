@@ -9,7 +9,7 @@
               src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
         </a>
         <br />
-          Diese Webseite und deren Inhalt sind lizenziert unter 
+          Dieser Guide ist lizenziert unter 
         <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/"><abbr title="Creative Commons Attribution-ShareAlike 4.0 International License">CC BY-SA 4.0</abbr><OutboundLink/></a>.
         <br />
           Das Wolf-Icon gehört 
