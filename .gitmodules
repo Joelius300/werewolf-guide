@@ -1,0 +1,3 @@
+[submodule "vuepress-next"]
+	path = vuepress-next
+	url = git@github.com:Joelius300/vuepress-next.git
