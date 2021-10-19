@@ -16,9 +16,9 @@ Wie schon im normalen Spiel, sagen dürft ihr alles. Die Karte bleibt am Platz (
 Die lebendigen Spieler dürfen untereinander frei kommunizieren. Sie sind selbst verantwortlich was sie sagen und wer es hören könnte.  
 Da dieses Spiel und gerade auch diese Variante sehr soziale Spiele sind, ist es natürlich auch erlaubt mit den ausgeschiedenen Spielern zu sprechen. Dabei sollte aber beachtet werden, dass das Spiel dadurch nicht beeinflusst wird.
 
-#### Was dürfen die toten denn sagen?
-Ausgeschiedenen Spielern ist es selbstverständlich verboten Informationen an lebendige Spieler weiterzugeben. Das betrifft _alle_ Spielinformationen, inklusive Informationen über sich selbst, andere tote und lebendige Spieler. Bitte lügt auch nicht als tote im Sinn von "höhö i bi im fau Werwouf gsi", lasst die anderen selbst spielen. Einfach sonst zu plaudern ist natürlich erlaubt und nur zuzuhören sowieso.  
-Selbstverständlich dürfen tote untereinander auch frei reden, solange die lebenden rundum nichts dadurch erfahren.
+#### Was dürfen die Toten denn sagen?
+Ausgeschiedenen Spielern ist es selbstverständlich verboten Informationen an lebendige Spieler weiterzugeben. Das betrifft _alle_ Spielinformationen, inklusive Informationen über sich selbst, andere tote und lebendige Spieler. Bitte lügt auch nicht als Tote im Sinn von "höhö i bi im fau Werwouf gsi", lasst die anderen selbst spielen. Einfach sonst zu plaudern ist natürlich erlaubt und nur zuzuhören sowieso.  
+Selbstverständlich dürfen Tote untereinander auch frei reden, solange die lebenden rundum nichts dadurch erfahren.
 
 #### Darf ich andere belauschen?
 Andere Spieler zu belauschen und beobachten ist erlaubt aber andere Spieler zu belästigen, verfolgen/nachrennen oder sonstwie stören ist verboten. Es sollen sich alle Spieler wohl fühlen und ihr als Spieler werdet gebeten dies sicherzustellen. Sprecht Probleme mit Vertrauenspersonen und dem Moderator an.
