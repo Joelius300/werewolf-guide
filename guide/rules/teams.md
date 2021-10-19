@@ -11,14 +11,14 @@ Wenn ein Team gewonnen hat, ist das Spiel vorbei und die anderen Teams können n
 
 ## Reihenfolge
 Da das Team einer Person ändern kann, ist es wichtig zu wissen, welches Team jetzt zählt.  
-Je höher die Zahl (Priorität), desto wichtiger das Team für eine Person. Das wichtigste Team einer Person bestimmt deren Ziel.
+Je höher die Priorität, desto wichtiger das Team für eine Person (Pärchen am wichtigsten, Dorf am wenigsten wichtig). Das wichtigste Team einer Person bestimmt deren Ziel und somit auch wie sie gewinnen kann.
 
-1. [Dorf](#dorf)
-2. [Werwölfe](#werwölfe)
-3. [Mafia](#mafia)
-4. [Weisser Werwolf](#weisser-werwolf)
-5. [Alter Sack](#alter-sack)
-6. [Pärchen](#pärchen)
+1. [Pärchen](#pärchen)
+2. [Alter Sack](#alter-sack)
+3. [Weisser Werwolf](#weisser-werwolf)
+4. [Mafia](#mafia)
+5. [Werwölfe](#werwölfe)
+6. [Dorf](#dorf)
 
 ### Beispiele
 #### Beispiel 1
@@ -50,13 +50,14 @@ Je höher die Zahl (Priorität), desto wichtiger das Team für eine Person. Das 
 - Der Seher spielt nun wieder für das Team Werwolf.
 
 ## Dorf
-Das Dorf gewinnt, wenn alle Werwölfe ausgeschieden sind.
+Das Dorf gewinnt, wenn alle Werwölfe ausgeschieden sind und somit niemand mehr für Team Werwölfe spielt.
 
 ## Werwölfe
-Die Werwölfe gewinnen, wenn nur noch Werwölfe leben.
+Die Werwölfe gewinnen, wenn nur noch aktive Werwölfe leben.  
+Ps. das Wilde Kind ist noch kein "aktiver" Werwolf, solange dessen Vorbild noch nicht gestorben ist.
 
 ## Mafia
-Die Mafia gewinnt, wenn nur noch Mafiamitglieder leben. Die Mafia ist das einzige Team, dass sich auflösen kann (wenn der [Mafiaboss](../characters/mafiaboss.html) stirbt). Wenn die Mafia aufgelöst wird, spielen die Mafiamitglieder nun für das nächst tiefere Team, welchem sie angehören.
+Die Mafia gewinnt, wenn nur noch Mafiamitglieder leben. Die Mafia ist das einzige Team, das sich auflösen kann (wenn der [Mafiaboss](../characters/mafiaboss.html) stirbt). Wenn die Mafia aufgelöst wird, spielen die Mafiamitglieder nun für das nächst tiefere Team, welchem sie angehören.
 
 Also 
 - ein Seher spielt wieder für das Dorf.
