@@ -2,7 +2,7 @@
   "name": "Werwolf-Guide",
   "short_name": "Werwolf-Guide",
   "description": "Sammlung von Regeln und Charakteren für das Spiel Werwolf (Mafia)",
-  "start_url": "index.html",
+  "start_url": "/?utm_source=pwa",
   "display": "standalone",
   "background_color": "#22272E",
   "theme_color": "#3eaf7c",
