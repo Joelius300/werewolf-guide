@@ -19,6 +19,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: base + 'images/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: base + 'manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    // Verification for Google Search Console (analytics about which search terms led to this page)
+    ['meta', { name: 'google-site-verification', content: 'UK8Uo_AzfqRzcTvNzPlxOZl3TVCVWxW2gGTjEr6qpAw' }],
   ],
   themeConfig: {
     logo: 'images/wolf_icon_black.svg',
