@@ -5,18 +5,20 @@ import { createCharactersPage } from './pageGeneration/characterSummaries';
 import { createDetailPages, createDetailsSidebar } from './pageGeneration/characterDetails';
 import mdFootnotes from 'markdown-it-footnote';
 
+const base = '/werewolf-guide/';
+
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'de-CH',
   title: 'Werwolf (Mafia) Guide',
   description: 'Sammlung von Regeln und Charakteren für das Spiel Werwolf (Mafia)',
   theme: path.resolve(__dirname, './theme'),
-  base: '/werewolf-guide/',
+  base,
   head: [
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'images/favicon-32x32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'images/favicon-16x16.png' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: 'images/apple-touch-icon.png' }],
-    ['link', { rel: 'manifest', href: 'manifest.webmanifest' }],
-    ['meta', { name: 'theme-color', content: '#fff' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: base + 'images/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: base + 'images/favicon-16x16.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: base + 'images/apple-touch-icon.png' }],
+    ['link', { rel: 'manifest', href: base + 'manifest.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
     logo: 'images/wolf_icon_black.svg',
