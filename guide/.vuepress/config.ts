@@ -31,7 +31,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         repo: 'https://github.com/Joelius300/werewolf-guide',
         repoLabel: 'Projekt',
         docsRepo: 'https://github.com/Joelius300/werewolf-guide',
-        docsBranch: 'master',
+        docsBranch: 'main',
         editLink: true,
         editLinkText: 'Würdsch öppis änderä?',
         docsDir: 'guide',
