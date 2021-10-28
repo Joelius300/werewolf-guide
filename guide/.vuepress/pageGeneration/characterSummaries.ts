@@ -6,7 +6,7 @@ const header = {
   lang: 'de-CH',
   title: 'Charaktere',
   description: 'Sammlung von Charakteren für Werwolf / Mafia',
-  editLink: false,
+  editLinkPattern: ':repo/edit/:branch/assets/characters.json'
 };
 
 async function createCharactersPage(app: App): Promise<void> {
@@ -17,6 +17,8 @@ async function createCharactersPage(app: App): Promise<void> {
     frontmatter: header,
     content,
   });
+
+  // See comment in characterDetails.ts for issue with git plugin and edit-link.
 
   app.pages.push(charactersPage);
 }
