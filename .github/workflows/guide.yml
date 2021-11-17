@@ -40,6 +40,11 @@ jobs:
         if: steps.npm-cache.outputs.cache-hit != 'true'
         run: npm ci
 
+      # build plausible submodule
+      - name: Build plausible-tracker submodule
+        working-directory: ./plausible-tracker
+        run: npm run build
+
       # run build script
       - name: Build VuePress site
         run: npm run build
