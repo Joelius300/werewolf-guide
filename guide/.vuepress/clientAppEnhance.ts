@@ -17,10 +17,10 @@ export default defineClientAppEnhance(() => {
   });
 
   plausible.enableAutoPageviews();
-  // This breaks all outbound links unfortunately since they should open in a new tab
-  // and that doesn't happen because of this tracking implementation.
+  // I'm using my own fork of plausible-tracker with a workaround for
+  // outbound links. Upstream they are currently broken (target attribute not honored).
   // https://github.com/plausible/plausible-tracker/issues/12
-  // plausible.enableAutoOutboundTracking();
+  plausible.enableAutoOutboundTracking();
 
   window.plausible = plausible;
 });

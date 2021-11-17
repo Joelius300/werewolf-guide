@@ -1,0 +1,3 @@
+[submodule "plausible-tracker"]
+	path = plausible-tracker
+	url = git@github.com:Joelius300/plausible-tracker.git
