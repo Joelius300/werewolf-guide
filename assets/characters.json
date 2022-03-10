@@ -70,10 +70,25 @@
     "tips": "Die Fähigkeit des Ogers ist stark, kann die \"angeschissenen\" aber auch frustrieren. Setze sie deshalb taktisch ein und lass niemanden ausgeschlossen fühlen, sonst wird es für sie zu einem beschissenen Spiel."
   },
   {
+    "id": "pissoirschiisser",
+    "name": "Pissoirschiisser",
+    "team": "Dorf",
+    "special": "Niemand mag den anonymen Pissoirscheisser. Seit Ewigkeiten scheisst er ins Dorfpissoir und zieht dadurch den Hass des Dorfes auf sich. Solange der Pissoirscheisser lebt, tötet das Dorf täglich zwei Spieler aus Wut.",
+    "tips": "Auch wenn es sehr auf die Runde ankommt, in dem meisten Fällen hilft der Pissoirscheisser den Werwölfen ungewollt, da das Dorf selten genau die richtigen tötet. Trotzdem spielt er für das Dorf und kann nur mit ihnen gewinnen (will somit überleben und möglichst schnell die Werwölfe eliminieren).",
+    "tipsModerator": "Dieser Charakter ist passiv wie ein Dorfbewohner aber kann Runden drastisch verschnellern, weshalb er in grossen Runden trotzdem angenehm sein kann. Da am Morgen nach dem Tod des Pissoirscheissers eine Regeländerung passiert kann kurz etwas story-mässiges über die Beruhigung des Dorfes gesagt werden."
+  },
+  {
     "id": "siblings",
     "name": "Geschwister",
     "team": "Dorf",
     "special": "Die Geschwister spielen für das Dorf aber sie kennen sich und können somit für einander einstehen. Sie sind sehr starke Rollen, da sie Ausschlussverfahren deutlich vereinfachen können. Ab und zu haben sie die Möglichkeit aufzuwachen und miteinander still zu kommunizieren. Es gibt verschiedene Geschwister-Gruppen, nämlich: 2 Schwestern & 3 Brüder."
+  },
+  {
+    "id": "seer_apprentice",
+    "name": "Seherlehrling",
+    "team": "Dorf",
+    "special": "Der Seherlehrling kennt von Beginn an die Identität des Sehers. Es spielt als Dorfbewohner aber kann diese zusätzliche Information nutzen, um versteckte Hinweise des Sehers zu verstehen, was auch den Seher beschützt.",
+    "tipsModerator": "Lasse ihn in der ersten Nacht erwachen und bitte den Seher die Hand mit geschlossenen Augen zu heben."
   },
   {
     "id": "stuttering_judge",
@@ -93,6 +108,14 @@
     "team": "Dorf",
     "special": "Wenn die Werwölfe den Rostigen Ritter in der Nacht töten, verwundet er den _ersten Werwolf links von ihm_. In der nächsten Nacht stirbt der verwundete Werwolf an den Folgen. Dagegen kann nicht beschützt oder geheilt werden und die Dorfmatratze hat keinen Einfluss auf den Tod des Werwolfs.  \nDieser Charakter ist passiv, kann aber viel Spannung und Spass bringen, wenn die Karten beim Tod nicht aufgedeckt werden. Zu behaupten der Rostige Ritter zu sein oder zu wissen wer der Rostige Ritter ist/war, kann Verwirrung stiften und je nach Situation von allen Spielern verwendet werden, um die eigenen Theorien und Lügen zu unterstützen.",
     "tips": "Der Rostige Ritter kann sehr stark sein, da von mehreren Person gleichzeitig dessen Unschuld bewiesen wird (Mafia, etc. ausgenommen). Wenn die Karten nach dem Tod nicht aufgedeckt werden, macht es also Sinn sich zu offenbaren. Aber Achtung, wenn du dich zu früh offenbarst, werden die Werwölfe am Tag auf dich gehen, damit du keinen Schaden anrichten kannst."
+  },
+  {
+    "id": "lucky_devil",
+    "name": "Glückspilz",
+    "team": "Dorf",
+    "special": "Beim ersten Mal wo der Glückspilz in der Nacht angegriffen würde, z.B. durch die Werwölfe oder die Hexe, hat er unglaublich Glück und einer seiner Nachbarn ist zum falschen Zeitpunkt am falschen Ort und wird stattdessen angegriffen. Der Glückspilz selbst ist völlig unbetroffen vom Angriff.",
+    "tips": "- Wenn der Glückspilz Glück hat, wird das Ziel des Angriffs völlig verschoben. Das heisst, wenn der Glückspilz in der ersten Nacht angegriffen wird und es einen seinen Nachbarn trifft, dann sieht die Hexe den Angriff auf den Nachbarn.\n- Nur negative Effekte sind betroffen, Heilen, Beschützen, etc. nicht. \n- Einige komplexere Szenarien sind: \n  - Verwandlung des Urwolfs: Da das Ziel verschoben wurde, wird einer seiner Nachbarn verwandelt.\n  - Tod durch Besuch der Dorfmatratze: Da die Dorfmatratze angegriffen wurde und nicht er, kann er diesem Tod nicht entwischen (und sein Glück hatte er schon mit ihr).\n  - Angegriffen während die Dorfmatratze bei ihm ist: Da das Ziel verschoben wurde, stirbt keiner von beiden.",
+    "tipsModerator": "- Die Regel, dass der Glückspilz quasi kein Glück hat, wenn er bei der Dorfmatratze ist, sollte zu Beginn erklärt werden damit es nicht zu unangenehmen Überraschungen kommt.\n- Dieser Charakter ist eher passiv aber erlaubt für mehr Strategie gegenüber einem Dorfbewohner ohne das Spiel zu verlängern (auf Kosten zusätzlichen Moderatoraufwands)."
   },
   {
     "id": "wild_kid",
@@ -115,6 +138,14 @@
     "team": "Einzelgänger",
     "special": "Der weisse Werwolf ist zwar ein Werwolf aber spielt für sich alleine und kann nur als letzte Person im Spiel gewinnen. Neben der normalen Werwolfnacht, wacht er zusätzlich jede zweite Nacht ohne die anderen Werwölfe auf und darf ein weiteres Opfer wählen. Die Hexe kann dieses nicht retten aber der Schutz des Beschützers & der Dorfmatratze schützen vom weissen Werwolf.",
     "tips": "- Da die Werwölfe niemanden töten können wenn nicht **alle** einverstanden sind, kann man als weisser Werwolf gegen Ende des Spiels absichtlich nicht kooperieren und so mehr Kontrolle erlangen.\n- Du musst deine Identität sowohl vor dem Dorf wie auch vor den Werwölfen geheimhalten. Behalte allerdings im Hinterkopf, dass die Werwölfe dich in der normalen Werwolfabstimmung kaum töten können, da du immer entgegenhaben kannst ausser natürlich, du trauerst dem Mafiaboss nach und erwachst gar nicht erst.\n- Du stehst über der Mafia (siehe [Teams](../teams.html)). Das heisst unter anderem, dass du nie mit der Mafia gewinnen kannst (dem Boss trauerst du trotzdem nach). Wenn du in die Mafia aufgenommen wirst, kannst du diese Informationen nutzen, um zu verhindern, dass die Mafia dir den Sieg vereitelt."
+  },
+  {
+    "id": "wolverine",
+    "name": "Wolverine",
+    "team": "Werwölfe",
+    "special": "Falls der Wolverine der nächste Werwolf an dem diesnächtigen Werwolf-Opfer ist, hört man in der Nacht ein metallisches Klingen.",
+    "tips": "- Sich den anderen Werwölfen als Wolverine zu outen macht wahrscheinlich Sinn, denn dann können sie das in die Opfersuche miteinbeziehen.\n- Die Geräusche des Wolverine können verheerende Folgen für die Werwölfe haben, wenn es dem Dorf gelingt dadurch einen Teil des Dorfes als unschuldig zu deklarieren (ähnlich wie eine Mischung aus Bär und Rostiger Ritter).",
+    "tipsModerator": "- Zwei metallene Gabeln oder Messer sind praktisch für die Geräusche.\n- Mach das Geräusch während der Nacht, am besten während die Werwölfe angreifen (sofern das zeitlich gut geht)."
   },
   {
     "id": "mafiaboss",

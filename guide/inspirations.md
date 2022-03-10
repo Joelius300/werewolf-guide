@@ -30,3 +30,27 @@ Die Werwölfe von Düsterwald war die erste Werwolf Version, die ich kannte und 
 ### [werewolf.chat](https://werewolf.chat)
 - [Zusätzliche Charaktere](https://werewolf.chat/Roles)
 - [Zusätzliche Spielmodi](https://werewolf.chat/Game_modes)
+
+### [werewolfvillage/wiki (GitHub)](https://github.com/werewolfvillage/wiki/wiki)
+- [Wolverine](https://github.com/werewolfvillage/wiki/wiki/Wolverine)
+- [Glückspilz](https://github.com/werewolfvillage/wiki/wiki/Leprechaun)
+
+### wired.co.uk
+- [Zusätzliche Charaktere](https://www.wired.co.uk/article/werewolf-extra-materials)
+
+### [werewolv.es](https://werewolv.es/guides)
+- [Zusätzliche Charaktere](https://werewolv.es/guides)
+- [GitHub Repo](https://github.com/werewolv-es/how-to-play)
+
+### [linglp.github.io/playwerewolf](https://linglp.github.io/playwerewolf/)
+- [Zusätzliche Charaktere](https://linglp.github.io/playwerewolf/)
+- [GitHub Repo](https://github.com/linglp/playwerewolf)
+
+### [mafia.gamekeller.net](https://mafia.gamekeller.net)
+- [Zusätzliche Charaktere](https://mafia.gamekeller.net/roles/)
+- [GitHub Repo](https://github.com/gamekeller/mafia)
+
+### [Mafia Brotherhood of Princeton University](https://web.archive.org/web/20050829053528/http://www.princeton.edu/~mafia/mafia.htm)
+- [Regeln & Charaktere](https://web.archive.org/web/20050901044147/http://www.princeton.edu/~mafia/rules.htm)
+- [Geschichte von Mafia](https://web.archive.org/web/20051210143114/http://www.princeton.edu/~mafia/history.htm)
+- [Links & Referenzen](https://web.archive.org/web/20051218094519/http://www.princeton.edu/~mafia/links.htm)
