@@ -33,9 +33,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         docsRepo: 'https://github.com/Joelius300/werewolf-guide',
         docsBranch: 'main',
         editLink: true,
-        editLinkText: 'Würdsch öppis änderä?',
+        editLinkText: 'Würdsch öppis ändere?',
         docsDir: 'guide',
         lastUpdated: false,
+        contributors: false,
         contributorsText: 'Autoren',
         navbar: [
           {
