@@ -19,6 +19,9 @@ Das Spiel diente als Inspiration bei verschiedenen Karten und auch beim grundsä
 
 Die Werwölfe von Düsterwald war die erste Werwolf Version, die ich kannte und ich habe sie schon viele Male gespielt. Ich habe zudem gute Erfahrungen mit den Karten vom "Die Werwölfe von Düsterwald - Der Pakt" Set gemacht, welche auch für die hier beschriebenen Regeln verwendet werden können (gewisse Karten werden umfunktioniert). Damit sich neue Spieler die Bilder nicht merken müssen, habe ich die Karten noch beschriftet.
 
+### Blood On The Clocktower
+Obwohl [Blood On The Clocktower](https://bloodontheclocktower.com/) ein eigenes komplexes Spiel mit einigen entscheidenden Unterschieden zu Werwolf / Mafia ist, setze ich es unter diese Rubrik, weil es ohne Zweifel von Werwolf inspiriert wurde. Leider hatte ich noch keine Möglichkeit BOTC auszuprobieren aber es klingt vielversprechend, gerade auch weil der Moderator eine DM-ähnliche Rolle (siehe DnD) einnehmen kann.
+
 ## Links aus dem Internetz Neuland
 ### [werewolfevents.com](https://www.werewolfevents.com)
 - [Zusätzliche Charaktere](http://www.werewolfevents.com/the-characters/)
