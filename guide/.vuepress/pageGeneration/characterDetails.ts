@@ -94,17 +94,8 @@ function getDetails(character: Character): string {
   return details;
 }
 
-function createDetailsSidebar(): SidebarConfigArray {
-  return [
-    {
-      text: 'Charakter Details',
-      children: getSortedCharacters().map(getCharacterDetailsPath),
-    },
-  ];
-}
-
-function getCharacterDetailsPath(character: Character): string {
+function getCharacterDetailsPath(character: Character) {
   return `/rules/characters/${character.id}.html`;
 }
 
-export { createDetailPages, createDetailsSidebar, getCharacterDetailsPath };
+export { createDetailPages, getCharacterDetailsPath };

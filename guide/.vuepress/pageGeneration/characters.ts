@@ -1,4 +1,4 @@
-import characters from '../../../assets/characters.json';
+import characters from '../assets/characters.json';
 
 declare type Character = (typeof characters)[0];
 

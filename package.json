@@ -1,30 +1,23 @@
 {
-  "name": "werewolf_guide",
-  "version": "1.0.0",
+  "name": "werewolf-guide",
+  "version": "2.0.0",
   "description": "Sammlung von Regeln und Charakteren für das Spiel Werwolf (Mafia)",
-  "repository": {
+   "repository": {
     "type": "git",
     "url": "https://github.com/Joelius300/werewolf-guide.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev guide",
-    "build": "vuepress build guide"
-  },
   "author": "Joel L.",
   "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "build": "vuepress build werewolf-guide",
+    "clean-dev": "vuepress dev werewolf-guide --clean-cache",
+    "dev": "vuepress dev werewolf-guide"
+  },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
-    "@vuepress/plugin-pwa": "^2.0.0-beta.27",
-    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.27",
-    "@vuepress/plugin-search": "^2.0.0-beta.27",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^7.18.0",
-    "markdown-it-footnote": "^3.0.3",
-    "plausible-tracker": "file:plausible-tracker",
-    "typescript": "^4.4.3",
-    "vuepress": "^2.0.0-beta.27",
-    "vuepress-plugin-clean-urls": "^1.1.2"
+    "@vuepress/client": "^2.0.0-beta.49",
+    "vue": "^3.2.36",
+    "vuepress": "^2.0.0-beta.49",
+    "vuepress-theme-hope": "^2.0.0-beta.90",
+    "plausible-tracker": "file:plausible-tracker"
   }
 }
