@@ -46,6 +46,7 @@ Diese Variante kann gut mit der Kanadischen Variante kombiniert werden. Dadurch 
 ### Word of caution
 Abgesehen davon, dass dieser Text geschrieben bevor die Variante ausprobiert wurde, gibt es für Moderatoren einige Dinge zu beachten, die möglicherweise zu Problemen führen könnten. 
 
+#### Abstimmungen
 BOTC hat ein anderes Voting-System, welches folgendem Ablauf folgt:
 
 - Einzelne Person nominieren (anklagen)
@@ -56,5 +57,10 @@ BOTC hat ein anderes Voting-System, welches folgendem Ablauf folgt:
 
 Da in BOTC das Abstimmungergebnis direkt von der Anzahl lebender Spieler abhängig ist und eine Person für mehrere nominierte stimmen kann, bin ich unsicher, ob die eine "Geisterstimme" für den Rest des Spiels in Werwolf denselben Effekt hat.
 
+#### Klarheit
 Ein weiteres potentielles Problem ist, dass im "vanilla" Werwolf fast nur gute Personen in der Nacht sterben, und wenn nicht, gibt es meist eine Hexe, die Klarheit über die Situation geben kann. In BOTC hingegen gibt es diese grundsätzliche logische Klarheit weniger. Es können viele unerwartete Dinge passieren, durch Rollen, Fähigkeiten, Eingriffe des Moderators, etc. was die Identität der Toten besser verschleiert. Dies ist ein zweischneidiges Schwert, weil Komplexität und Verschleierung zu einem spannenderen Spiel oder aber zu Verwirrung, Zufall und Spassverderben führen können. \
 Ein spannendes solches Spielelement, das BOTC nutzt, um Informationen zu verschleiern und Komplexität zu erhöhen, ist Drunk bzw. Poisoned. Wenn eine Person Drunk/Poisoned ist, gehen ihre Fähigkeiten ins Nichts. Das heisst, Beschützer beschützt niemanden, Hexe heilt/tötet niemanden, Urwolf verwandelt niemanden, etc. Der Punkt dabei ist, dass diese Personen nicht wissen, dass sie Drunk/Poisoned sind, was die grundsätzliche Verwirrung im Spiel deutlich erhöht. Ich denke, dass eine solche Spielmechanik auch in Werwolf seinen Platz finden könnte.
+
+#### Rollen Anpassungen
+Auch wenn diese Variante einige Rollen praktisch unmöglich macht (Magd) und von anderen eine Anpassung benötigt (Mafiaboss), öffnet sie gleichzeitig die Tür für interessante neue Rollen, die sonst unmöglich oder sehr schwer umzusetzen wären. Dazu gehört zum Beispiel Wiederbelebung und Tod fälschen.
+

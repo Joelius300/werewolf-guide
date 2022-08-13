@@ -8,6 +8,7 @@
 # Local History for Visual Studio Code
 .history/
 
+!guide/.vuepress
 node_modules
 .temp
 .cache
