@@ -5,46 +5,59 @@ description: Variationen für Werwolf / Mafia Regeln
 ---
 
 ## Kanadische Variante
+
 In dieser Variante findet vor den Abstimmungen jeweils eine Austauschrunde statt, wo sich die Spieler frei im Raum bewegen und miteinander sprechen können. Dadurch kann man nun endlich tun was sonst immer verboten war, nämlich mit jemandem reden, ohne, dass es die anderen hören.  
-Diese Variante spielt man ohne Karten aufdecken. Das bedeutet, beim Tod einer Person wird dessen Rolle nicht offenbart, was für mehr Strategie, Lügen und Bluffen erlaubt. Es macht das Spiel anspruchsvoller, öffnet aber viele Türen für ein spannenderes Spiel.  
+Diese Variante spielt man ohne Karten aufdecken. Das bedeutet, beim Tod einer Person wird dessen Rolle nicht offenbart, was für mehr Strategie, Lügen und Bluffen erlaubt. Es macht das Spiel anspruchsvoller, öffnet aber viele Türen für ein spannenderes Spiel.
 
 ### FAQ für Spieler
+
 #### Was darf man alles sagen?
+
 Wie schon im normalen Spiel, sagen dürft ihr alles. Die Karte bleibt am Platz (und sie zu zeigen bleibt natürlich weiterhin verboten).
 
 #### Mit wem darf ich sprechen?
+
 Die lebendigen Spieler dürfen untereinander frei kommunizieren. Sie sind selbst verantwortlich was sie sagen und wer es hören könnte.  
 Da dieses Spiel und gerade auch diese Variante sehr soziale Spiele sind, ist es natürlich auch erlaubt mit den ausgeschiedenen Spielern zu sprechen. Dabei sollte aber beachtet werden, dass das Spiel dadurch nicht beeinflusst wird.
 
 #### Was dürfen die Toten denn sagen?
+
 Ausgeschiedenen Spielern ist es selbstverständlich verboten Informationen an lebendige Spieler weiterzugeben. Das betrifft _alle_ Spielinformationen, inklusive Informationen über sich selbst, andere tote und lebendige Spieler. Bitte lügt auch nicht als Tote im Sinn von "höhö i bi im fau Werwouf gsi", lasst die anderen selbst spielen. Einfach sonst zu plaudern ist natürlich erlaubt und nur zuzuhören sowieso.  
 Selbstverständlich dürfen Tote untereinander auch frei reden, solange die lebenden rundum nichts dadurch erfahren.
 
 #### Darf ich andere belauschen?
+
 Andere Spieler zu belauschen und beobachten ist erlaubt aber andere Spieler zu belästigen, verfolgen/nachrennen oder sonstwie stören ist verboten. Es sollen sich alle Spieler wohl fühlen und ihr als Spieler werdet gebeten dies sicherzustellen. Sprecht Probleme mit Vertrauenspersonen und dem Moderator an.
 
 ### Infos für Moderator
+
 - Wenn sich lebendige und tote Spieler am Tag vermischen, sollten die lebendigen Spieler klar gekennzeichnet werden.
 - Wenn sich viele Spieler nicht kennen, macht es Sinn, die Personen mit deren Namen zu beschriften.
 - Da dieses Format die Länge der bereits zeitaufwändigen Werwolfrunden deutlich erhöht, sollte es Beschäftigungen für die ausgeschiedenen Spieler geben. Wenn das Spiel als Party Spiel gespielt wird, ist das kein Problem, da die ausgeschiedenen Spieler zur Party zurückkehren können. Wenn nicht, kann man ihnen z.B. einen Rückzugsort geben und dort ev. noch kleinere Spiele bereitlegen.
 
 ## Geister Variante
+
 Dies ist eine Variante inspiriert von Blood On The Clocktower, in der tote Spieler weiterhin am Spiel teilhaben und mitentscheiden können. Als solches eignet sich diese Variante für Settings wo tote Spieler nicht zurück an eine Party oder Convention gehen können, indem alle Spieler bis zum Schluss beschäftigt werden.
 
 Diese Variante bedingt, dass Karten nach dem Tod nicht aufgedeckt werden. Ebenfalls sollten Tote klar erkennbar gemacht werden. \
-Wenn eine Person stirbt, spielt diese weiterhin beim Spiel mit unter den folgenden Bedingungen: 
+Damit die Werwölfe eine Chance haben und lügen können, sollte das Spiel so gespielt werden, dass mehr Rollen im Spiel sind als tatsächlich verteilt werden und die unbekannten Rollen in der Mitte übrig bleiben.
+Das bedingt (leider) einige passive Rollen wie der Rostige Ritter, Geschwister, Dorfbewohner, etc. damit die Nächte nicht übermässig in die Länge gezogen werden (auch Rollen in der Mitte müssen "aufwachen" bzw. moderiert werden). \
+Um diese Regelung umzusetzen, kann ein Werwolf zu einem Aura-Werwolf gemacht werden, welcher sicher verteil wird und zu Beginn des Spiels die Hälfte der übrigen Karten in der Mitte ansehen darf. Man muss definieren, ob der Seher und das Dorf grundsätzlich auch mit diesen Karten interagieren darf aber dabei muss einem bewusst sein, dass dies das Dorf wieder sehr viel stärker machen würde, indem es den geschaffenen Vorteil für die Werwölfe in einigen Nächten zunichte macht sofern der Seher so lange lebt.
+
+Wenn eine Person stirbt, spielt diese weiterhin beim Spiel mit unter den folgenden Bedingungen:
 
 - Die Person verliert alle Fähigkeiten (Aufwachen als Werwolf, Tränke nutzen als Hexe, zweite Abstimmung einrufen als Richter, etc.).
 - Die Person darf niemanden mehr anklagen.
 - Die Person darf nur noch einmal im Spiel abstimmen. \
-  Damit klar ist wer von den Toten noch eine Stimme übrig hat, wird beim Tod ein Voting-Chip (ein beliebiger Gegenstand) übergeben. Wenn eine tote Person sich entscheidet bei einer Abstimmung teilzunehmen, hebt sie den Voting-Chip sichtbar in der Hand, die sie für die Abstimmung hebt und gibt ihn dann ab.
+  Damit klar ist wer von den Toten noch eine Stimme übrig hat, wird beim Tod ein Voting-Chip (ein beliebiger Gegenstand) übergeben. Wenn eine tote Person sich entscheidet bei einer Abstimmung teilzunehmen, hebt sie den Voting-Chip sichtbar in der Hand, die sie für die Abstimmung hebt und gibt ihn dann ab. Wenn Spieler diesen Chip bis zum Ende des Spiels aufsparen können, hat das Dorf einen grossen Vorteil. Um das zu bekämpfen kann definiert werden, dass ein Voting-Chip nach 3 Abstimmungen ohne Verwendung verfällt.
 
 Neben diesen Limitierungen spielt die Person weiterhin beim Spiel mit, das heisst: Einschlafen mit den anderen, mitdiskutieren am Tag und weiterhin versuchen ihr Team zum Sieg zu bringen.
 
 Diese Variante kann gut mit der Kanadischen Variante kombiniert werden. Dadurch wird ein lebhafter Austausch zwischen _allen_ Spielern ermöglicht, da die Toten meist auch nicht mehr wissen als die Lebenden, und gleichzeitig auch das Problem der langen Runden gelöst, da alle bis zum Schluss Teil davon sind.
 
 ### Word of caution
-Abgesehen davon, dass dieser Text geschrieben bevor die Variante ausprobiert wurde, gibt es für Moderatoren einige Dinge zu beachten, die möglicherweise zu Problemen führen könnten. 
+
+Abgesehen davon, dass dieser Text geschrieben bevor die Variante ausprobiert wurde, gibt es für Moderatoren einige Dinge zu beachten, die möglicherweise zu Problemen führen könnten.
 
 BOTC hat ein anderes Voting-System, welches folgendem Ablauf folgt:
 
