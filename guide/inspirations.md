@@ -8,12 +8,12 @@ description: Inspirationen für den Werwolf Guide
 
 ## Kommerzielle Werwolf Versionen
 
-### Ultimate Werewolf
+### Ultimate Werewolf & One Night Version
 
 [Ultimate Werewolf](https://en.wikipedia.org/wiki/Ultimate_Werewolf) ist eine Werwolf Version erstellt von Ted Alspach und veröffentlicht von Bézier Games, Inc.  
-Das Spiel diente als Inspiration bei verschiedenen Karten. Dieser Guide stellt keine Reproduktion dar.
+Das Spiel diente als Inspiration bei verschiedenen Karten. Dieser Guide stellt keine Reproduktion dar. Rollen zur Inspiration sind im [Board Games Wiki](https://board-games.fandom.com/wiki/Ultimate_Werewolf/Roles) aufgeführt.
 
-One Night Ultimate Werewolf (Variante von Ultimate Werewolf) spielt sich deutlich anders als das hier beschriebene Werwolf, ist aber ein super Spiel für kleinere Gruppen bis 10 Personen.
+[One Night Ultimate Werewolf](https://one-night.fandom.com/wiki/One_Night_Ultimate_Werewolf) (Variante von Ultimate Werewolf) spielt sich deutlich anders als das hier beschriebene Werwolf, ist aber ein super Spiel für kleinere Gruppen bis 10 Personen. Es hat ebenfalls einige interessante Rollen, welche adaptiert werden könnten.
 
 ### Die Werwölfe von Düsterwald
 
@@ -26,7 +26,27 @@ Die Werwölfe von Düsterwald war die erste Werwolf Version, die ich kannte und 
 
 Obwohl [Blood On The Clocktower](https://bloodontheclocktower.com/) ein eigenes komplexes Spiel mit einigen entscheidenden Unterschieden zu Werwolf / Mafia ist, setze ich es unter diese Rubrik, weil es ohne Zweifel von Werwolf inspiriert wurde. Anders als Werwolf und gerade "meiner" Version, die hier erklärt ist, hat bei BOTC die Spielleitung eine deutlich aktivere Rolle und entscheidet den Verlauf des Spiels mit. Dadurch kann zusätzliche Spannung und tiefere Narrative erzeugt werden, doch das Spiel verliert an Determinismus. Ich persönlich mag Werwolf mehr, weil alles was passiert klaren Regeln folgt, zurückführbar ist und viel Strategie erlaubt. Ebenfalls ist BOTC nur für kleinere Gruppen geeignet und benötigt zusätzliches Material.
 
-## Links aus dem Internetz Neuland
+### Wolvesville
+
+[Wolvesville](https://www.wolvesville.com/) ist eine online Werwolf Version, welche auch eine offline Narrator-App zur Verfügung stellt (leider alles proprietär und kostenpflichtig). Diese Version enthält ebenfalls viele interessante Rollen, die als Inspiration dienen, jedoch funktionieren viele davon nur online und/oder mit einer algorithmischen Spielleitung.
+
+Hier einige relevante Links des Wikis.
+
+- [Zusätzliche Charaktere](https://wolvesville.fandom.com/wiki/Category:Roles)
+- [Zusätzliche Charaktere (offline only)](https://wolvesville.fandom.com/wiki/Category:Classic)
+- [Narrator-App (kommerziell)](https://wolvesville.fandom.com/wiki/Wolvesville_Classic)
+
+### Werewolf by Stellar Factory
+
+[Werewolf](https://playwerewolf.co/) ist soweit ich verstehe ein moderner Konkurrent zu "Die Werwölfe von Düsterwald". Es bietet nur wenige zusätzliche Rollen, ist aber nennenswert.
+
+## Sonstige Internet-Ressourcen
+
+## Wikipedia
+
+- Enthält diverse Interessante Informationen zu Geschichte, Theorie, Regeln, Rollen und Research mit Quellen. Verschidene Sprachen enthalten verschiedene Infos.
+- [Englische Seite](<https://en.wikipedia.org/wiki/Mafia_(party_game)>)
+- [Deutsche Seite](<https://de.wikipedia.org/wiki/Mafia_(Gesellschaftsspiel)>)
 
 ### [werewolfevents.com](https://www.werewolfevents.com)
 
@@ -46,6 +66,10 @@ Obwohl [Blood On The Clocktower](https://bloodontheclocktower.com/) ein eigenes 
 
 - [Wolverine](https://github.com/werewolfvillage/wiki/wiki/Wolverine)
 - [Glückspilz](https://github.com/werewolfvillage/wiki/wiki/Leprechaun)
+
+### [werewolf-the-game.fandom.com](https://werewolf-the-game.fandom.com/)
+
+- [Zusätzliche Charaktere](https://werewolf-the-game.fandom.com/wiki/List_of_Roles)
 
 ### wired.co.uk
 
