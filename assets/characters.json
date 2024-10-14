@@ -170,5 +170,20 @@
     "special": "Die Magd kann sich direkt nach der Ankündigung eines Todes (aber vor dem Aufdecken der Karte) als dessen Magd offenbaren und die Karte sowie den Platz der gerade gestorbenen Person übernehmen. Wenn die Magd verliebt ist, darf sie das nicht. Wenn die Magd verwandelt oder in der Mafia war, bleibt sie das auch weiterhin als den neuen Charakter. Wenn der verstorbene Charakter verwandelt, verliebt oder in der Mafia war, ist dies die Magd **nicht** mehr.",
     "tips": "Da die Verwandlung einer Person nicht an die Magd übergeben wird, kann sie verwendet werden, um verwandelte zu \"heilen\". Wenn die Hexe nämlich verwandelt wurde, kann das Dorf sie töten, die Magd ihren Charakter übernehmen und nun hat das Dorf wieder eine Hexe, die nicht mehr verwandelt ist.",
     "tipsModerator": "Wenn so gespielt wird, dass die Karten nach dem Tod aufgedeckt werden, stelle sicher, dass die Toten ihre Karten nicht zu schnell aufdecken, damit die Magd genügend Zeit hat einzuspringen."
+  },
+  {
+    "id": "arsonist",
+    "name": "Brandstifter",
+    "team": "Einzelgänger",
+    "special": "Jede Nacht muss der Brandstifter entweder eine Person mit Benzin übergiessen oder alle bisher übergossenen Personen anzünden und damit töten. Man kann nicht von der Hexe geheilt oder von Beschützer geschützt werden. Bezüglich [Dorfmatratze](./whore.html): Man kann nicht übergossen werden, wenn man nicht zuhause ist, aber Besucher werden auch übergossen und brennen mit, falls der Host übergossen bzw. angezündet wird.",
+    "variations": "Die Anzahl und Rate der Übergiessungen kann angepasst werden, um das Spiel zu beschleunigen/verlangsamen. Man kann auch machen, dass man erfährt, wenn man übergossen wird (ähnlich wie der Flötenspieler).",
+    "tipsModerator": "- Erkläre die Zeichen gut: entweder auf jemanden zeigen (übergiessen) oder Hände in die Luft werfen (_alle bisher übergossenen_ anzünden). Führe eine Liste mit allen übergossenen und passt gut auf Dorfmatratze auf (oder kombiniert die beiden Rollen nicht)."
+  },
+  {
+    "id": "queen",
+    "name": "The Queen",
+    "team": "Dorf",
+    "special": "Die Queen erwacht jede Nacht nach dem Seher, wählt eine Person, welche von der Spielleitung geweckt wird, und winkt dieser mit dem ikonischen Winken der Queen zu. Dadurch erfährt die geweckte Person, wer die Queen ist, und dass sie entsprechend keine andere Rolle hat.",
+    "tips": "- Als [Urwolf](./great_werewolf.html) ist die Queen vermutlich ein gutes Ziel, da sie ein verifizierbares Alibi hat und meist mehr Vertrauen als andere erhält."
   }
 ]
