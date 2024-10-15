@@ -11,5 +11,5 @@
 node_modules
 .temp
 .cache
-.vitepress/dist
-.vitepress/cache
+guide/.vitepress/dist
+guide/.vitepress/cache

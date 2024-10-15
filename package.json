@@ -9,9 +9,9 @@
     "url": "https://github.com/Joelius300/werewolf-guide.git"
   },
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "dev": "vitepress dev guide",
+    "build": "vitepress build guide",
+    "preview": "vitepress preview guide"
   },
   "devDependencies": {
     "vitepress": "^1.4.1"
