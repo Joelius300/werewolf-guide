@@ -16,11 +16,15 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: base + 'images/favicon-16x16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: base + 'images/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: base + 'manifest.webmanifest' }],
+    // ['meta', { name: 'background-color', content: 'TODO' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     // Verification for Google Search Console (analytics about which search terms led to this page)
     ['meta', { name: 'google-site-verification', content: 'UK8Uo_AzfqRzcTvNzPlxOZl3TVCVWxW2gGTjEr6qpAw' }],
   ],
   cleanUrls: true,
+  sitemap: {
+    hostname: "https://joelius300.github.io" + base,
+  },
   // markdown: TODO add footnote extension
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
