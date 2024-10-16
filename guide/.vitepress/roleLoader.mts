@@ -19,10 +19,11 @@ export { data }
 export default defineLoader({
   watch: ['../../assets/characters.json'],
   // TODO sort by name w.r.t. configured locale
-  async load(watchedFiles): Promise<Data> {
+  async load(watchedFiles: string[]): Promise<Data> {
     // TODO verify that you get the updated module, because modules
     // are usually cached after they are imported once.
-    const { default: roles } = await import(watchedFiles[0], { with: { type: "json" } })
+    const cacheBuster = `?t=${new Date().getTime()}`;
+    const { default: roles } = await import(watchedFiles[0] + cacheBuster, { with: { type: "json" } })
 
     return roles
   }
