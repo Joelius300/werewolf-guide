@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { createRolesSidebar } from "../.vitepress/roleDynamicContent.mts"
 
 const base = '/werewolf-guide/';
 
@@ -29,20 +30,38 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
-    // TODO navbar and sidebar todo
-    sidebar: [
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
+        text: 'Regeln',
+        link: '/rules/',
+      },
+      {
+        text: 'Charakter-Details',
+        link: '/roles/',
+      },
+      {
+        text: 'Inspirationen',
+        link: '/inspirations',
       },
     ],
-
+    sidebar: {
+      '/rules/': [
+        {
+          text: 'Regeln',
+          items: [
+            { text: "Grundregeln", link: "/rules/index" },
+            { text: "Teams", link: "/rules/teams" },
+            { text: "Rollen", link: "/rules/roles" },
+            { text: "Variationen", link: "/rules/variations" },
+          ],
+        },
+      ],
+      '/roles/': [
+        {
+          text: "Rollen in Detail",
+          items: await createRolesSidebar()
+        }
+      ]
+    },
     socialLinks: [
       { icon: "github", link: "https://github.com/Joelius300/werewolf-guide" },
     ],
@@ -51,8 +70,8 @@ export default defineConfig({
       pattern: "https://github.com/Joelius300/werewolf-guide/edit/main/guide/:path",
     },
     logo: {
-      light: 'images/wolf_icon_black.svg',
-      dark: 'images/wolf_icon_white.svg',
+      light: '/images/wolf_icon_black.svg',
+      dark: '/images/wolf_icon_white.svg',
       alt: "Wolf-Logo",
     },
     darkModeSwitchLabel: "Light/Dark Mode",
@@ -60,6 +79,7 @@ export default defineConfig({
     darkModeSwitchTitle: "Mach dunkel",
     sidebarMenuLabel: "Menü",
     // notFound: TODO german text
+    // TODO translate "in this file" on the right side
     externalLinkIcon: true,
     footer: {
       message: '<div id="license_footer" style="display: flex; flex-direction: column; align-items: center"> <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/"> <img alt="Creative Commons License" style="border-width: 0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /> </a> <p>Dieser Guide ist lizenziert unter <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/"><abbr title="Creative Commons Attribution-ShareAlike 4.0 International License">CC BY-SA 4.0</abbr></a>.</p><p>Das Wolf-Icon gehört <a target="_blank" rel="noopener noreferrer" href="https://www.mcicon.com/product/wolf-icon-15/">MCICON<OutboundLink/></a>.</p></div>',
