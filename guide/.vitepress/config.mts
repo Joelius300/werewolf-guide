@@ -1,5 +1,5 @@
 import { defineConfig } from "vitepress";
-import { createRolesSidebar } from "../.vitepress/roleDynamicContent.mts"
+import { createRolesSidebar } from "../roles/roleDynamicContent.mts"
 
 const base = '/werewolf-guide/';
 

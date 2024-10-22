@@ -1,7 +1,8 @@
-import roleLoader, { type Role } from "../.vitepress/roleLoader.mts";
+import roleLoader, { type Role } from "./roles.data.mts"
 
 export async function createRolesSidebar() {
-  const roles = await roleLoader.load([roleLoader.watch as string]);
+  console.log("loading dynamically from " + __filename);
+  const roles = await roleLoader.load();
   return roles.map((r: Role) => ({ text: r.name, link: "/roles/" + r.id }));
 }
 
