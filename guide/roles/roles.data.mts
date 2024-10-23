@@ -43,6 +43,6 @@ export default defineLoader({
 
     const { default: roles } = await import(file + cacheBuster, { with: { type: "json" } })
 
-    return roles
+    return roles.sort((a, b) => a.name.localeCompare(b.name));
   }
 })

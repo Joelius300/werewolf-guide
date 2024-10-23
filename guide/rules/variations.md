@@ -1,8 +1,10 @@
 ---
 lang: de-CH
-title: Variationen
-description: Variationen für Werwolf / Mafia Regeln
+title: Varianten
+description: Varianten von Werwolf / Mafia Regeln
 ---
+
+# Varianten
 
 ## Kanadische Variante
 
