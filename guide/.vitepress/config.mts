@@ -13,7 +13,7 @@ export default defineConfig({
   lang: "de-CH",
   title: "Werwolf (Mafia) Guide",
   description:
-    "Sammlung von Regeln und Charakteren für das Spiel Werwolf (Mafia)",
+    "Sammlung von Regeln und Rollen für das Spiel Werwolf (Mafia)",
   base,
   // öppis mitm favicon isch noni guet
   head: [
@@ -55,7 +55,7 @@ export default defineConfig({
         link: '/rules/',
       },
       {
-        text: 'Charakter-Details',
+        text: 'Rollen',
         link: '/roles/',
       },
       {
