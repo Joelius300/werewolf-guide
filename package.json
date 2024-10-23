@@ -18,6 +18,7 @@
     "vitepress": "^1.4.1"
   },
   "dependencies": {
+    "@barbapapazes/plausible-tracker": "^0.5.3",
     "pagefind": "^1.1.1",
     "vitepress-plugin-pagefind": "^0.4.10"
   }
