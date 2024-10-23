@@ -8,7 +8,6 @@ export default {
     // resolves it correctly and reloads when the watched file changes, but here from and mts
     // file this does not work. Currently loading the data manually doesn't watch the file of
     // course so it's not great! but at least the site compiles and works.
-    console.log("loading dynamically from " + __filename);
     const roles = await roleLoader.load();
 
     return roles.map((r: Role) => {
