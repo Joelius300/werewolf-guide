@@ -11,9 +11,11 @@
   "scripts": {
     "dev": "vitepress dev guide",
     "build": "vitepress build guide",
-    "preview": "vitepress preview guide"
+    "preview": "vitepress preview guide",
+    "deploy": "npm run build && gh-pages -d guide/.vitepress/dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "markdown-it-footnote": "^4.0.0",
     "vitepress": "^1.4.1"
   },
