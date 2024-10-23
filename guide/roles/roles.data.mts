@@ -24,7 +24,6 @@ const ASSET_PATH = '../assets/roles.json';
 
 export default defineLoader({
   watch: ASSET_PATH,
-  // TODO sort by name w.r.t. configured locale
   async load(watchedFiles?: string[]): Promise<Data> {
     let file: string;
     if (watchedFiles == null) {
@@ -43,6 +42,7 @@ export default defineLoader({
 
     const { default: roles } = await import(file + cacheBuster, { with: { type: "json" } })
 
-    return roles.sort((a, b) => a.name.localeCompare(b.name));
+    // TODO Use the lang that is currently used in Vitepress
+    return roles.sort((a, b) => a.name.localeCompare(b.name, "de-CH"));
   }
 })
