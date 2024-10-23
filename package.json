@@ -16,5 +16,9 @@
   "devDependencies": {
     "markdown-it-footnote": "^4.0.0",
     "vitepress": "^1.4.1"
+  },
+  "dependencies": {
+    "pagefind": "^1.1.1",
+    "vitepress-plugin-pagefind": "^0.4.10"
   }
 }

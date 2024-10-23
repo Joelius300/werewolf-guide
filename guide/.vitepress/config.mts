@@ -1,7 +1,8 @@
-import { defineConfig } from "vitepress";
+import { defineConfig } from "vitepress"
 import { createRolesSidebar } from "../roles/roleDynamicContent.mts"
 import roleLoader from "../roles/roles.data.mts"
-import mdFootnotes from 'markdown-it-footnote';
+import mdFootnotes from 'markdown-it-footnote'
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 const base = '/werewolf-guide/';
 
@@ -33,6 +34,18 @@ export default defineConfig({
     config: (md) => {
       md.use(mdFootnotes)
     }
+  },
+  vite: {
+    plugins: [pagefindPlugin({
+      btnPlaceholder: 'Suche',
+      placeholder: 'Durchsuchen',
+      emptyText: 'Keine Resultate.',
+      heading: 'Gefunden: {{searchResult}} Resultate',
+      toSelect: 'Auswählen',
+      toNavigate: 'Navigieren',
+      toClose: 'Schliessen',
+      searchBy: 'Powered by',
+    })],
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
