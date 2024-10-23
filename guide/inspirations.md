@@ -32,8 +32,8 @@ Obwohl [Blood On The Clocktower](https://bloodontheclocktower.com/) ein eigenes 
 
 Hier einige relevante Links des Wikis.
 
-- [Zusätzliche Charaktere](https://wolvesville.fandom.com/wiki/Category:Roles)
-- [Zusätzliche Charaktere (offline only)](https://wolvesville.fandom.com/wiki/Category:Classic)
+- [Zusätzliche Rollen](https://wolvesville.fandom.com/wiki/Category:Roles)
+- [Zusätzliche Rollen (offline only)](https://wolvesville.fandom.com/wiki/Category:Classic)
 - [Narrator-App (kommerziell)](https://wolvesville.fandom.com/wiki/Wolvesville_Classic)
 
 ### Werewolf by Stellar Factory
@@ -50,16 +50,16 @@ Hier einige relevante Links des Wikis.
 
 ### [werewolfevents.com](https://www.werewolfevents.com)
 
-- [Zusätzliche Charaktere](http://www.werewolfevents.com/the-characters/)
+- [Zusätzliche Rollen](http://www.werewolfevents.com/the-characters/)
 - [Kanadisches Format](http://www.werewolfevents.com/modguideprep/)
 
 ### [loups-garous-en-ligne.com](https://loups-garous-en-ligne.com)
 
-- [Zusätzliche Charaktere](https://docs.google.com/document/u/2/d/e/2PACX-1vS0kH2pvEoQtKvmO4PDr8vvOOiKW7Rhgq1s3nDT4uhle2t-LMrxFD361NTRu0bt0zW_NA8q3x6Il3it/pub#kix.8ev76r23btyb)
+- [Zusätzliche Rollen](https://docs.google.com/document/u/2/d/e/2PACX-1vS0kH2pvEoQtKvmO4PDr8vvOOiKW7Rhgq1s3nDT4uhle2t-LMrxFD361NTRu0bt0zW_NA8q3x6Il3it/pub#kix.8ev76r23btyb)
 
 ### [werewolf.chat](https://werewolf.chat)
 
-- [Zusätzliche Charaktere](https://werewolf.chat/Roles)
+- [Zusätzliche Rollen](https://werewolf.chat/Roles)
 - [Zusätzliche Spielmodi](https://werewolf.chat/Game_modes)
 
 ### [werewolfvillage/wiki (GitHub)](https://github.com/werewolfvillage/wiki/wiki)
@@ -69,29 +69,29 @@ Hier einige relevante Links des Wikis.
 
 ### [werewolf-the-game.fandom.com](https://werewolf-the-game.fandom.com/)
 
-- [Zusätzliche Charaktere](https://werewolf-the-game.fandom.com/wiki/List_of_Roles)
+- [Zusätzliche Rollen](https://werewolf-the-game.fandom.com/wiki/List_of_Roles)
 
 ### wired.co.uk
 
-- [Zusätzliche Charaktere](https://www.wired.co.uk/article/werewolf-extra-materials)
+- [Zusätzliche Rollen](https://www.wired.co.uk/article/werewolf-extra-materials)
 
 ### [werewolv.es](https://werewolv.es/guides)
 
-- [Zusätzliche Charaktere](https://werewolv.es/guides)
+- [Zusätzliche Rollen](https://werewolv.es/guides)
 - [GitHub Repo](https://github.com/werewolv-es/how-to-play)
 
 ### [linglp.github.io/playwerewolf](https://linglp.github.io/playwerewolf/)
 
-- [Zusätzliche Charaktere](https://linglp.github.io/playwerewolf/)
+- [Zusätzliche Rollen](https://linglp.github.io/playwerewolf/)
 - [GitHub Repo](https://github.com/linglp/playwerewolf)
 
 ### [mafia.gamekeller.net](https://mafia.gamekeller.net)
 
-- [Zusätzliche Charaktere](https://mafia.gamekeller.net/roles/)
+- [Zusätzliche Rollen](https://mafia.gamekeller.net/roles/)
 - [GitHub Repo](https://github.com/gamekeller/mafia)
 
 ### [Mafia Brotherhood of Princeton University](https://web.archive.org/web/20050829053528/http://www.princeton.edu/~mafia/mafia.htm)
 
-- [Regeln & Charaktere](https://web.archive.org/web/20050901044147/http://www.princeton.edu/~mafia/rules.htm)
+- [Regeln & Rollen](https://web.archive.org/web/20050901044147/http://www.princeton.edu/~mafia/rules.htm)
 - [Geschichte von Mafia](https://web.archive.org/web/20051210143114/http://www.princeton.edu/~mafia/history.htm)
 - [Links & Referenzen](https://web.archive.org/web/20051218094519/http://www.princeton.edu/~mafia/links.htm)

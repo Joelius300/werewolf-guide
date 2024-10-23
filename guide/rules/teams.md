@@ -6,7 +6,7 @@ description: Teams / Allianzen für Werwolf / Mafia
 
 # Teams
 
-Jeder Charakter hat ein Team mit welchem er startet. Es ist aber nicht selten, dass sich das Team eines Spielers verändert. Dies kann zum Beispiel durch eine Verwandlung des [Urwolfs](/roles/great_werewolf) oder einem Schuss des [Amors](/roles/cupid) geschehen.
+Jede Rolle gehört zu einem Team. Es ist aber nicht selten, dass sich das Team eines Spielers verändert. Dies kann zum Beispiel durch eine Verwandlung des [Urwolfs](/roles/great_werewolf) oder einem Schuss des [Amors](/roles/cupid) geschehen.
 
 Wenn ein Team gewonnen hat, ist das Spiel vorbei und die anderen Teams können nicht mehr gewinnen. Deshalb ist es z.B. für den [Weissen Werwolf](/roles/white_werewolf) wichtig, den letzten Dorfbewohner nicht zu töten, wenn noch ein anderer Werwolf lebt, sonst gewinnen die Werwölfe und er selbst hat verloren.
 
@@ -27,7 +27,7 @@ Je höher die Priorität, desto wichtiger das Team für eine Person (Pärchen am
 
 - Eine Hexe startet das Spiel für Team Dorf.
 - Die Hexe wird in der Nacht vom Urwolf verwandelt.
-- Die Hexe spiel nun für Team Werwolf. Sie behält alle ihre vorherigen Fähigkeiten (dies kann Charakterspezifisch sein).
+- Die Hexe spiel nun für Team Werwolf. Sie behält alle ihre vorherigen Fähigkeiten (dies kann Rollenspezifisch sein).
 - Die Hexe wird in der nächsten Nacht vom Mafiaboss in die Mafia aufgenommen.
 - Die Hexe spielt nun für die Mafia. Sie kann immernoch ihre Tränke verwenden und in der Nacht mit den Werwölfen abstimmen.
 
