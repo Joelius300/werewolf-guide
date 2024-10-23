@@ -1,7 +1,10 @@
 import { defineConfig } from "vitepress";
 import { createRolesSidebar } from "../roles/roleDynamicContent.mts"
+import roleLoader from "../roles/roles.data.mts"
 
 const base = '/werewolf-guide/';
+
+const roles = await roleLoader.load();
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -58,7 +61,7 @@ export default defineConfig({
       '/roles/': [
         {
           text: "Rollen in Detail",
-          items: await createRolesSidebar()
+          items: createRolesSidebar(roles)
         }
       ]
     },

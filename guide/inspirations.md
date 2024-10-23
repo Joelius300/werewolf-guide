@@ -42,7 +42,7 @@ Hier einige relevante Links des Wikis.
 
 ## Sonstige Internet-Ressourcen
 
-## Wikipedia
+### Wikipedia
 
 - Enthält diverse Interessante Informationen zu Geschichte, Theorie, Regeln, Rollen und Research mit Quellen. Verschidene Sprachen enthalten verschiedene Infos.
 - [Englische Seite](<https://en.wikipedia.org/wiki/Mafia_(party_game)>)

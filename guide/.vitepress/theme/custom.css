@@ -1,0 +1,41 @@
+:root {
+  --vp-badge-village-border: transparent;
+  --vp-badge-village-text: var(--vp-c-green-1);
+  --vp-badge-village-bg: var(--vp-c-green-soft);
+
+  --vp-badge-werewolf-border: transparent;
+  --vp-badge-werewolf-text: var(--vp-c-red-1);
+  --vp-badge-werewolf-bg: var(--vp-c-red-soft);
+
+  --vp-badge-lone-border: transparent;
+  --vp-badge-lone-text: var(--vp-c-purple-1);
+  --vp-badge-lone-bg: var(--vp-c-purple-soft);
+
+  --vp-badge-mafia-border: transparent;
+  --vp-badge-mafia-text: var(--vp-c-yellow-1);
+  --vp-badge-mafia-bg: var(--vp-c-yellow-soft);
+}
+
+.VPBadge.village {
+  border-color: var(--vp-badge-village-border);
+  color: var(--vp-badge-village-text);
+  background-color: var(--vp-badge-village-bg);
+}
+
+.VPBadge.werewolf {
+  border-color: var(--vp-badge-werewolf-border);
+  color: var(--vp-badge-werewolf-text);
+  background-color: var(--vp-badge-werewolf-bg);
+}
+
+.VPBadge.lone {
+  border-color: var(--vp-badge-lone-border);
+  color: var(--vp-badge-lone-text);
+  background-color: var(--vp-badge-lone-bg);
+}
+
+.VPBadge.mafia {
+  border-color: var(--vp-badge-mafia-border);
+  color: var(--vp-badge-mafia-text);
+  background-color: var(--vp-badge-mafia-bg);
+}

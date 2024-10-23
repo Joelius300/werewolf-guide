@@ -1,20 +1,39 @@
-import roleLoader, { type Role } from "./roles.data.mts"
+import { type Role } from "./roles.data.mts"
 
-export async function createRolesSidebar() {
+export function createRolesSidebar(roles: Role[]) {
   console.log("loading dynamically from " + __filename);
-  const roles = await roleLoader.load();
   return roles.map((r: Role) => ({ text: r.name, link: "/roles/" + r.id }));
+}
+
+export function getTeamColorType(team: string): string {
+  switch (team) {
+    case 'Dorf':
+      return 'village';
+    case 'Werwölfe':
+      return 'werewolf';
+    case 'Mafia':
+      return 'mafia';
+    case 'Einzelgänger':
+      return 'lone';
+    default:
+      return 'info';
+  }
+}
+
+function getTeamBadgeHtml(team: string): string {
+  return `<Badge type="${getTeamColorType(team)}" text="${team}" />`;
 }
 
 export function getDetailsMd(role: Role): string {
   let details =
-    `# ${role.name}` +
-    // TODO add badges. https://vitepress.dev/reference/default-theme-badge.
-    // for styling, will have to add css https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/components/VPBadge.vue
-    // ` ${getTeamBadgeHtml(role.team)}` +
+    `# ${role.name} ` +
+    getTeamBadgeHtml(role.team) +
     '\n' +
     '\n' +
-    role.special;
+    role.special +
+    '\n' +
+    '\n' +
+    '---';
 
   if (role.variations) {
     details +=

@@ -2,7 +2,6 @@ import { defineLoader } from 'vitepress'
 import fs from 'fs/promises'
 import path from 'path'
 
-
 export interface Role {
   id: string
   name: string
