@@ -5,8 +5,8 @@ description: Rollen für Werwolf / Mafia im Überblick
 ---
 
 <script setup lang="ts">
-import { data as roles, type Role } from "../roles/roles.data.mts";
-import { getTeamColorType } from "../roles/roleDynamicContent.mts";
+import { data as roles, type Role } from "../rollen/roles.data.mts";
+import { getTeamColorType } from "../rollen/roleDynamicContent.mts";
 import { withBase } from "vitepress";
 
 const hasMoreInfo = (role: Role) => !!(role.tips || role.variations || role.tipsModerator);

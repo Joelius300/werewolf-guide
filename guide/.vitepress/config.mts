@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress"
-import { createRolesSidebar } from "../roles/roleDynamicContent.mts"
-import roleLoader from "../roles/roles.data.mts"
+import { createRolesSidebar } from "../rollen/roleDynamicContent.mts"
+import roleLoader from "../rollen/roles.data.mts"
 import mdFootnotes from 'markdown-it-footnote'
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
@@ -52,30 +52,30 @@ export default defineConfig({
     nav: [
       {
         text: 'Regeln',
-        link: '/rules/',
+        link: '/regeln/',
       },
       {
         text: 'Rollen',
-        link: '/roles/',
+        link: '/rollen/',
       },
       {
         text: 'Inspirationen',
-        link: '/inspirations',
+        link: '/inspirationen',
       },
     ],
     sidebar: {
-      '/rules/': [
+      '/regeln/': [
         {
           text: 'Regeln',
           items: [
-            { text: "Grundregeln", link: "/rules/index" },
-            { text: "Teams", link: "/rules/teams" },
-            { text: "Rollen", link: "/rules/roles" },
-            { text: "Variationen", link: "/rules/variations" },
+            { text: "Grundregeln", link: "/regeln" },
+            { text: "Teams", link: "/regeln/teams" },
+            { text: "Rollen", link: "/regeln/rollen" },
+            { text: "Variationen", link: "/regeln/variationen" },
           ],
         },
       ],
-      '/roles/': [
+      '/rollen/': [
         {
           text: "Rollen in Detail",
           items: createRolesSidebar(roles)

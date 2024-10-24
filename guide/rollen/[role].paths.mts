@@ -1,6 +1,7 @@
 // import { data as roles } from "../.vitepress/roleLoader.mts"
 import roleLoader, { type Role } from "./roles.data.mts"
 import { getDetailsMd } from "./roleDynamicContent.mts"
+import { slugify } from '@mdit-vue/shared'
 
 export default {
   async paths() {
@@ -13,7 +14,7 @@ export default {
     return roles.map((r: Role) => {
       return {
         params: {
-          role: r.id,
+          role: slugify(r.name),
           ...r,
         },
         frontmatter: {

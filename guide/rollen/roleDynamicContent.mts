@@ -1,7 +1,8 @@
 import { type Role } from "./roles.data.mts"
+import { slugify } from '@mdit-vue/shared'
 
 export function createRolesSidebar(roles: Role[]) {
-  return roles.map((r: Role) => ({ text: r.name, link: "/roles/" + r.id }));
+  return roles.map((r: Role) => ({ text: r.name, link: "/rollen/" + slugify(r.name) }));
 }
 
 export function getDetailsMd(role: Role): string {

@@ -6,9 +6,9 @@ description: Teams / Allianzen für Werwolf / Mafia
 
 # Teams
 
-Jede Rolle gehört zu einem Team. Es ist aber nicht selten, dass sich das Team eines Spielers verändert. Dies kann zum Beispiel durch eine Verwandlung des [Urwolfs](/roles/great_werewolf) oder einem Schuss des [Amors](/roles/cupid) geschehen.
+Jede Rolle gehört zu einem Team. Es ist aber nicht selten, dass sich das Team eines Spielers verändert. Dies kann zum Beispiel durch eine Verwandlung des [Urwolfs](/rollen/urwolf) oder einem Schuss des [Amors](/rollen/amor) geschehen.
 
-Wenn ein Team gewonnen hat, ist das Spiel vorbei und die anderen Teams können nicht mehr gewinnen. Deshalb ist es z.B. für den [Weissen Werwolf](/roles/white_werewolf) wichtig, den letzten Dorfbewohner nicht zu töten, wenn noch ein anderer Werwolf lebt, sonst gewinnen die Werwölfe und er selbst hat verloren.
+Wenn ein Team gewonnen hat, ist das Spiel vorbei und die anderen Teams können nicht mehr gewinnen. Deshalb ist es z.B. für den [Weissen Werwolf](/rollen/weisser-werwolf) wichtig, den letzten Dorfbewohner nicht zu töten, wenn noch ein anderer Werwolf lebt, sonst gewinnen die Werwölfe und er selbst hat verloren.
 
 ## Reihenfolge
 
@@ -66,7 +66,7 @@ Ps. das Wilde Kind ist noch kein "aktiver" Werwolf, solange dessen Vorbild noch 
 
 ## Mafia
 
-Die Mafia gewinnt, wenn nur noch Mafiamitglieder leben. Die Mafia ist das einzige Team, das sich auflösen kann (wenn der [Mafiaboss](/roles/mafiaboss) stirbt). Wenn die Mafia aufgelöst wird, spielen die Mafiamitglieder nun für das nächst tiefere Team, welchem sie angehören.
+Die Mafia gewinnt, wenn nur noch Mafiamitglieder leben. Die Mafia ist das einzige Team, das sich auflösen kann (wenn der [Mafiaboss](/rollen/mafiaboss) stirbt). Wenn die Mafia aufgelöst wird, spielen die Mafiamitglieder nun für das nächst tiefere Team, welchem sie angehören.
 
 Also
 
@@ -76,7 +76,7 @@ Also
 
 ## Einzelgänger
 
-Einzelgänger wie der [Weisse Werwolf](/roles/white_werewolf), der [Alte Sack](/roles/old_dude) oder der [Brandstifter](/roles/arsonist) gewinnen alleine, wenn nur noch sie leben.
+Einzelgänger wie der [Weisse Werwolf](/rollen/weisser-werwolf), der [Alte Sack](/rollen/alter-sack) oder der [Brandstifter](/rollen/brandstifter) gewinnen alleine, wenn nur noch sie leben.
 
 ## Pärchen
 
