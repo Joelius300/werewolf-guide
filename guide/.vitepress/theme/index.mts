@@ -1,6 +1,6 @@
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import TeamBadge from "../../components/TeamBadge.vue";
+import TeamBadge from "./components/TeamBadge.vue";
 import { createPlausibleTracker, type Plausible } from '@barbapapazes/plausible-tracker'
 import "./custom.css"
 import { useAutoPageviews, useAutoOutboundTracking } from '@barbapapazes/plausible-tracker/extensions';
@@ -13,6 +13,7 @@ declare global {
 
 export default {
   extends: DefaultTheme,
+  // Layout: if need client-side redirect: https://github.com/vuejs/vitepress/issues/4160
   enhanceApp({ app }) {
     // register additional global components (usable in .md without import)
     app.component('TeamBadge', TeamBadge);
