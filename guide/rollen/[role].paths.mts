@@ -1,4 +1,3 @@
-// import { data as roles } from "../.vitepress/roleLoader.mts"
 import roleLoader, { type Role } from "./roles.data.mts"
 import { getDetailsMd } from "./roleDynamicContent.mts"
 import { slugify } from '@mdit-vue/shared'
@@ -24,7 +23,8 @@ export default {
         // we pass the built Markdown as string instead of using the
         // properties (params) in a markdown template because you cannot
         // put raw markdown to be rendered in the template using vue expressions
-        // (they are put in container html elements and not translated from md->html)
+        // (they are put in container html elements and not translated from md->html).
+        // Alternatively, could do it like regeln/rollen using a markdown renderer.
         content: getDetailsMd(r)
       }
     })
