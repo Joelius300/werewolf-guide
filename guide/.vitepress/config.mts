@@ -114,5 +114,9 @@ export default defineConfig({
     search: {
       provider: "local",
     },
+    docFooter: {
+      next: "Nächste Seite",
+      prev: "Vorherige Seite",
+    },
   },
 });
