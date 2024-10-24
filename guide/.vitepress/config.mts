@@ -71,7 +71,7 @@ export default defineConfig({
             { text: "Grundregeln", link: "/regeln" },
             { text: "Teams", link: "/regeln/teams" },
             { text: "Rollen", link: "/regeln/rollen" },
-            { text: "Variationen", link: "/regeln/variationen" },
+            { text: "Varianten", link: "/regeln/varianten" },
           ],
         },
       ],

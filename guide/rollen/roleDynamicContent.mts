@@ -20,7 +20,7 @@ export function getDetailsMd(role: Role): string {
     details +=
       '\n' +
       '\n' +
-      '### Variationen' +
+      '### Varianten' +
       '\n' +
       role.variations;
   }
