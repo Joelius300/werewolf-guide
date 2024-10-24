@@ -175,7 +175,7 @@
     "id": "arsonist",
     "name": "Brandstifter",
     "team": "Einzelgänger",
-    "special": "Jede Nacht muss der Brandstifter entweder eine Person mit Benzin übergiessen oder alle bisher übergossenen Personen anzünden und damit töten. Man kann nicht von der Hexe geheilt oder von Beschützer geschützt werden. Bezüglich [Dorfmatratze](./dorfmatratze): Man kann nicht übergossen werden, wenn man nicht zuhause ist, aber Besucher werden auch übergossen und brennen mit, falls der Host übergossen bzw. angezündet wird.",
+    "special": "Jede Nacht muss der Brandstifter entweder eine Person mit Benzin übergiessen oder alle bisher übergossenen Personen anzünden und damit töten. Man kann nicht von der Hexe geheilt oder von Beschützer geschützt werden. Bezüglich [Dorfmatratze](/rollen/dorfmatratze): Man kann nicht übergossen werden, wenn man nicht zuhause ist, aber Besucher werden auch übergossen und brennen mit, falls der Host übergossen bzw. angezündet wird.",
     "variations": "Die Anzahl und Rate der Übergiessungen kann angepasst werden, um das Spiel zu beschleunigen/verlangsamen. Man kann auch machen, dass man erfährt, wenn man übergossen wird (ähnlich wie der Flötenspieler).",
     "tipsModerator": "- Erkläre die Zeichen gut: entweder auf jemanden zeigen (übergiessen) oder Hände in die Luft werfen (_alle bisher übergossenen_ anzünden). Führe eine Liste mit allen übergossenen und passt gut auf Dorfmatratze auf (oder kombiniert die beiden Rollen nicht)."
   },
@@ -184,6 +184,6 @@
     "name": "The Queen",
     "team": "Dorf",
     "special": "Die Queen erwacht jede Nacht nach dem Seher, wählt eine Person, welche von der Spielleitung geweckt wird, und winkt dieser mit dem ikonischen Winken der Queen zu. Dadurch erfährt die geweckte Person, wer die Queen ist, und dass sie entsprechend keine andere Rolle hat.",
-    "tips": "- Als [Urwolf](./urwolf) ist die Queen vermutlich ein gutes Ziel, da sie ein verifizierbares Alibi hat und meist mehr Vertrauen als andere erhält."
+    "tips": "- Als [Urwolf](/rollen/urwolf) ist die Queen vermutlich ein gutes Ziel, da sie ein verifizierbares Alibi hat und meist mehr Vertrauen als andere erhält."
   }
 ]
