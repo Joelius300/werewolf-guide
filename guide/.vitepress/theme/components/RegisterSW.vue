@@ -1,41 +1,79 @@
 <script setup lang="ts">
-import { onBeforeMount, ref } from "vue";
+import { computed, ref } from "vue";
+import { useRegisterSW } from "virtual:pwa-register/vue";
 
-const offlineReady = ref(false);
-function onOfflineReady() {
-  offlineReady.value = true;
-}
-async function close() {
-  offlineReady.value = false;
+// check for updates every hour
+const period = 60 * 60 * 1000;
+
+const swActivated = ref(false);
+
+function registerPeriodicSync(swUrl: string, r: ServiceWorkerRegistration) {
+  if (period <= 0) return;
+
+  setInterval(async () => {
+    if ("onLine" in navigator && !navigator.onLine) return;
+
+    const resp = await fetch(swUrl, {
+      cache: "no-store",
+      headers: {
+        cache: "no-store",
+        "cache-control": "no-cache",
+      },
+    });
+
+    if (resp?.status === 200) await r.update();
+  }, period);
 }
 
-onBeforeMount(async () => {
-  const { registerSW } = await import("virtual:pwa-register");
-  registerSW({
-    immediate: true,
-    onOfflineReady,
-    onRegistered() {
-      console.info("Service Worker registered");
-    },
-    onRegisterError(e) {
-      console.error("Service Worker registration error!", e);
-    },
-  });
+const { needRefresh, updateServiceWorker } = useRegisterSW({
+  immediate: true,
+  onRegisteredSW(swUrl, r) {
+    if (period <= 0) return;
+    if (r?.active?.state === "activated") {
+      swActivated.value = true;
+      registerPeriodicSync(swUrl, r);
+    } else if (r?.installing) {
+      r.installing.addEventListener("statechange", (e) => {
+        const sw = e.target as ServiceWorker;
+        swActivated.value = sw.state === "activated";
+        if (swActivated.value) registerPeriodicSync(swUrl, r);
+      });
+    }
+  },
 });
+
+const title = computed(() => {
+  if (needRefresh.value) return "Es gibt neue Inhalte 🎉 klick auf 'Update'";
+  return "";
+});
+
+function close() {
+  needRefresh.value = false;
+}
 </script>
 
 <template>
-  <template v-if="offlineReady">
-    <div class="pwa-toast" role="alertdialog" aria-labelledby="pwa-message">
-      <div id="pwa-message" class="mb-3">App funktioniert ab jetzt offline</div>
-      <button type="button" class="pwa-cancel" @click="close">
-        Schliessen
-      </button>
+  <div
+    v-if="needRefresh"
+    class="pwa-toast"
+    aria-labelledby="toast-message"
+    role="alert"
+  >
+    <div class="message">
+      <span id="toast-message">
+        {{ title }}
+      </span>
     </div>
-  </template>
+    <div class="buttons">
+      <button type="button" class="reload" @click="updateServiceWorker()">
+        Update
+      </button>
+      <button type="button" @click="close">Schliessen</button>
+    </div>
+  </div>
 </template>
 
-<style>
+<style scoped>
 .pwa-toast {
   position: fixed;
   right: 0;
@@ -44,13 +82,16 @@ onBeforeMount(async () => {
   padding: 12px;
   border: 1px solid #8885;
   border-radius: 4px;
-  z-index: 100;
+  z-index: 1;
   text-align: left;
   box-shadow: 3px 4px 5px 0 #8885;
-  background-color: white;
+  display: grid;
 }
-.pwa-toast #pwa-message {
+.pwa-toast .message {
   margin-bottom: 8px;
+}
+.pwa-toast .buttons {
+  display: flex;
 }
 .pwa-toast button {
   border: 1px solid #8885;
@@ -58,5 +99,8 @@ onBeforeMount(async () => {
   margin-right: 5px;
   border-radius: 2px;
   padding: 3px 10px;
+}
+.pwa-toast button.reload {
+  display: block;
 }
 </style>

@@ -3,13 +3,14 @@ import { createRolesSidebar } from "../rollen/roleDynamicContent.mts"
 import roleLoader from "../rollen/roles.data.mts"
 import mdFootnotes from 'markdown-it-footnote'
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
+import { withPwa } from '@vite-pwa/vitepress'
 
 const base = '/werewolf-guide/';
 
 const roles = await roleLoader.load();
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withPwa(defineConfig({
   lang: "de-CH",
   title: "Werwolf (Mafia) Guide",
   description:
@@ -120,4 +121,5 @@ export default defineConfig({
       prev: "Vorherige Seite",
     },
   },
-});
+  pwa: {}
+}));
