@@ -121,5 +121,9 @@ export default withPwa(defineConfig({
       prev: "Vorherige Seite",
     },
   },
-  pwa: {}
+  pwa: {
+    strategies: "generateSW",
+    registerType: "autoUpdate",
+    manifest: false,
+  }
 }));
