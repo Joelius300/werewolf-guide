@@ -15,7 +15,8 @@ export default defineConfig({
   description:
     "Sammlung von Regeln und Rollen für das Spiel Werwolf (Mafia)",
   base,
-  // öppis mitm favicon isch noni guet
+  // These icon links etc. needed for PWA could also be dynamically injected via PWA Assets
+  // https://vite-pwa-org.netlify.app/frameworks/vitepress#pwa-assets
   head: [
     ['link', { rel: 'icon', href: base + 'favicon.ico' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: base + 'images/favicon-32x32.png' }],
