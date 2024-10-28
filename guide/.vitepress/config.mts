@@ -123,7 +123,10 @@ export default withPwa(defineConfig({
   },
   pwa: {
     strategies: "generateSW",
-    registerType: "autoUpdate",
+    registerType: "autoUpdate",  // not sure what the downside is, does it refresh annoyingly?
     manifest: false,
+    // same filename as vuepress-pwa plugin, allows this framework change
+    // to be recognized as an update and applied to users automatically.
+    filename: "service-worker.js",
   }
 }));
