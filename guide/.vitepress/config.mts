@@ -102,7 +102,9 @@ export default withPwa(defineConfig({
     sidebarMenuLabel: "Menü",
     externalLinkIcon: true,
     footer: {
-      message: '<div id="license_footer" style="display: flex; flex-direction: column; align-items: center"> <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/"> <img alt="Creative Commons License" style="border-width: 0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /> </a> <p>Dieser Guide ist lizenziert unter <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/"><abbr title="Creative Commons Attribution-ShareAlike 4.0 International License">CC BY-SA 4.0</abbr></a>.</p><p>Das Wolf-Icon gehört <a target="_blank" rel="noopener noreferrer" href="https://www.mcicon.com/product/wolf-icon-15/">MCICON<OutboundLink/></a>.</p></div>',
+      // Docs say that you can only put inline elements here, but it seems to work fine.
+      // Using a custom layout with this html in the footer slot looks worse.
+      message: '<div id="license_footer" style="display: flex; flex-direction: column; align-items: center"> <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/"> <img alt="Creative Commons License" style="border-width: 0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /> </a> <p>Dieser Guide ist lizenziert unter <a target="_blank" rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/4.0/"><abbr title="Creative Commons Attribution-ShareAlike 4.0 International License">CC BY-SA 4.0</abbr></a>.</p><p>Das Wolf-Icon gehört <a target="_blank" rel="noopener noreferrer" href="https://www.mcicon.com/product/wolf-icon-15/">MCICON</a>.</p></div>',
     },
     outline: {
       label: "Inhalt",
@@ -124,7 +126,7 @@ export default withPwa(defineConfig({
   pwa: {
     strategies: "generateSW",
     registerType: "autoUpdate",  // not sure what the downside is, does it refresh annoyingly?
-    manifest: false,
+    manifest: false,  // use our own, do not generate one
     // same filename as vuepress-pwa plugin, allows this framework change
     // to be recognized as an update and applied to users automatically.
     filename: "service-worker.js",
