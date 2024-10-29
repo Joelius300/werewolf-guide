@@ -14,7 +14,14 @@ const hasMoreInfo = (role: Role) => !!(role.tips || role.variations || role.tips
 const getRolePath = (role: Role) => withBase(`/rollen/${slugify(role.name)}`);
 </script>
 
-<h1>Rollen im Überblick</h1>
+# Rollen im Überblick
+
+Die Beschreibungen unterhalb erklären die Fähigkeiten und Motivationen der verschiedenen Rollen. Die Spielleitung wählt vor dem Spiel alle zu verwendenden Rollen aus und muss darauf achten, dass die Teams ungefähr gleich stark sind (Faustregel: halb so viele Werwölfe wie Dorf).
+
+::: details Bemerkung zu Geschlechtsformen
+Es ist erwähnenswert, dass die Rollennamen häufig nur in einer Geschlechtsform geschrieben sind (derselben wie im Werwölfe von Düsterwald). Wo möglich, werden geschlechtsneutrale Formen verwendet, doch meiner Erfahrung nach, passiert es beim moderieren häufig, dass man versehentlich das Geschlecht einer Person durch die Rollenbezeichnung verrät, wenn man versucht die Formen zu variieren. Aus diesem Grund wähle ich für jede Rolle jeweils eine Form und verwende diese _immer_. Findet heraus, was für euch am besten funktioniert, die Namen sind überhaupt nicht fix und können problemlos angepasst werden (übrigens auch für eine thematische Einkleidung, falls man mal ein Alien-Mafia spielen möchte).
+:::
+
 <div v-for="role of roles">
   <h2>{{role.name}} <TeamBadge :team="role.team" /></h2>
   <div v-html="role.renderedSpecial" />
