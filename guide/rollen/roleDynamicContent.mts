@@ -38,7 +38,7 @@ export function getDetailsMd(role: Role): string {
     details +=
       '\n' +
       '\n' +
-      '### Tipps für Moderator' +
+      '### Tipps für Spielleitung' +
       '\n' +
       role.tipsModerator;
   }
