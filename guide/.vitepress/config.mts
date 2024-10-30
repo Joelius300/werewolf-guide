@@ -129,7 +129,7 @@ export default withPwa(defineConfig({
   },
   pwa: {
     strategies: "generateSW",
-    registerType: "autoUpdate",  // not sure what the downside is, does it refresh annoyingly?
+    registerType: "prompt",  // not sure what the downside is, does it refresh annoyingly?
     manifest: false,  // use our own, do not generate one
     // same filename as vuepress-pwa plugin, allows this framework change
     // to be recognized as an update and applied to users automatically.
