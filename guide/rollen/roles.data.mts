@@ -2,6 +2,9 @@ import { ContentData, createContentLoader } from 'vitepress'
 
 // createContentLoader take a glob pattern relative to the src path (/guide/)
 // but includes index.md, which is of course really fucking annoying.
+// TODO
+// When you get back to this, it'll probably be easier to copy the source of createContentLoader
+// and implement it yourself because you could reuse most of roleLoader.ts (already have most of it except for rendering markdown).
 export default createContentLoader("rollen/*.md", {
   includeSrc: true,
   render: false,

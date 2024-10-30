@@ -19,7 +19,9 @@
     "@types/uuid": "^10.0.0",
     "@vite-pwa/vitepress": "^0.5.3",
     "gh-pages": "^6.2.0",
+    "gray-matter": "^4.0.3",
     "markdown-it-footnote": "^4.0.0",
+    "p-map": "^7.0.2",
     "uuid": "^11.0.2",
     "vitepress": "^1.4.1"
   },
