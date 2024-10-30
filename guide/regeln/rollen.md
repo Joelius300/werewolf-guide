@@ -5,13 +5,8 @@ description: Rollen für Werwolf / Mafia im Überblick
 ---
 
 <script setup lang="ts">
-import { data as roles, type RenderedRole as Role } from "./renderedRoles.data.mts";
-import { getTeamColorType } from "../rollen/roleDynamicContent.mts";
-import { slugify } from '@mdit-vue/shared'
+import { data as roles } from "../rollen/roles.data.mts";
 import { withBase } from "vitepress";
-
-const hasMoreInfo = (role: Role) => !!(role.tips || role.variations || role.tipsModerator);
-const getRolePath = (role: Role) => withBase(`/rollen/${slugify(role.name)}`);
 </script>
 
 # Rollen im Überblick
@@ -23,7 +18,7 @@ Es ist erwähnenswert, dass die Rollennamen häufig nur in einer Geschlechtsform
 :::
 
 <div v-for="role of roles">
-  <h2>{{role.name}} <TeamBadge :team="role.team" /></h2>
-  <div v-html="role.renderedSpecial" />
-  <a v-if="hasMoreInfo(role)" :href="getRolePath(role)">Tipps, Varianten, etc.</a>
+  <h2>{{role.frontmatter.title}} <TeamBadge :team="role.frontmatter.team" /></h2>
+  <div v-html="role.excerpt" />
+  <a v-if="role.hasMoreInfo" :href="withBase(role.url)">Tipps, Varianten, etc.</a>
 </div>

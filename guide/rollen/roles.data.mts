@@ -1,43 +1,30 @@
-import { defineLoader } from 'vitepress'
-import fs from 'node:fs/promises'
-import path from 'node:path'
+import { ContentData, createContentLoader } from 'vitepress'
 
-export interface Role {
-  id: string
-  name: string
-  team: string
-  special: string
-  variations?: string
-  tips?: string
-  tipsModerator?: string
-}
+// createContentLoader take a glob pattern relative to the src path (/guide/)
+// but includes index.md, which is of course really fucking annoying.
+export default createContentLoader("rollen/*.md", {
+  includeSrc: true,
+  render: false,
+  excerpt: true,
+  // globOptions: {
+  //   doesn't work either
+  //   ignore: "**/index.md",
+  // },
+  transform(data: ContentData[]) {
+    // manually remove index.md because of course we don't want the index page in here.
+    // WHY DOES IT INCLUDE THAT; THIS MUST BE THE N.1 REASON TO USE createContentLoader?!
+    data.splice(data.findIndex((p) => p.url == "/rollen/"), 1);
 
-type Data = Role[]
-
-// relative to this loader (!)
-const ASSET_PATH = '../assets/roles.json';
-
-export default defineLoader({
-  watch: ASSET_PATH,
-  async load(watchedFiles?: string[]): Promise<Data> {
-    let file: string;
-    if (watchedFiles == null) {
-      // we're loading dynamically, so by explicitly calling load()
-      // and need to resolve the correct path ourself.
-      file = path.join(import.meta.dirname, ASSET_PATH);
-    } else {
-      // we already get the correct path from the current working directory,
-      // resolved by vitepress for us.
-      file = path.resolve(".", watchedFiles[0]);
-    }
-
-    // const cacheBuster = `?t=${new Date().getTime()}`; // <--reloads everytime
-    const stat = await fs.stat(file)
-    const cacheBuster = `?t=${stat.mtime.valueOf()}`; // <-- reloads only when file changed
-
-    const { default: roles } = await import(file + cacheBuster, { with: { type: "json" } })
-
-    // TODO Use the lang that is currently used in Vitepress
-    return roles.sort((a, b) => a.name.localeCompare(b.name, "de-CH"));
-  }
+    // TODO Use the lang that is currently used in Vitepress for localCompare
+    return data.sort((a, b) => a.frontmatter.title.localeCompare(b.frontmatter.title, "de-CH"))
+      .map((page) => ({
+        url: page.url,
+        // have to remove heading, we want to have our own. also, the badge is lost in the parsed heading.
+        // random note on excerpt: it seems to compile links to .html, even though cleanLinks is enabled.
+        excerpt: page.excerpt?.replace("<h1", "<h1 hidden"),
+        frontmatter: page.frontmatter,
+        // if there are two consecutive #, there are sub-sections. could also check for content after '---'
+        hasMoreInfo: page.src?.includes("##"),
+      }))
+  },
 })

@@ -1,13 +1,10 @@
 import { defineConfig } from "vitepress"
 import { v4 as uuid } from 'uuid';
-import { createRolesSidebar } from "../rollen/roleDynamicContent.mts"
 import roleLoader from "../rollen/roles.data.mts"
 import mdFootnotes from 'markdown-it-footnote'
 import { withPwa } from '@vite-pwa/vitepress'
 
 const base = '/werewolf-guide/';
-
-const roles = await roleLoader.load();
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(defineConfig({
@@ -66,12 +63,14 @@ export default withPwa(defineConfig({
           ],
         },
       ],
-      '/rollen/': [
-        {
-          text: "Rollen in Detail",
-          items: createRolesSidebar(roles)
-        }
-      ]
+      // TODO LOST THE SIDEBAR!!! since createContentLoader uses a markdown parser, it cannot be
+      // used before the config is instantiated. other mechanism for generating the sidebar would be needed.
+      // '/rollen/': [
+      //   {
+      //     text: "Rollen in Detail",
+      //     items: (await roleLoader.load()).map((page) => ({ text: page.frontmatter.title, link: page.url }))
+      //   }
+      // ]
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/Joelius300/werewolf-guide" },

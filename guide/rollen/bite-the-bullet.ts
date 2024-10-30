@@ -1,4 +1,4 @@
-import roleLoader, { type Role } from "./roles.data.mts"
+import roleLoader, { type Role } from "./rolesJson.data.mts"
 import { getDetailsMd } from "./roleDynamicContent.mts"
 import { slugify } from '@mdit-vue/shared'
 import fs from 'node:fs/promises'
