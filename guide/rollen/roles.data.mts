@@ -19,9 +19,11 @@ export default createContentLoader("rollen/*.md", {
     return data.sort((a, b) => a.frontmatter.title.localeCompare(b.frontmatter.title, "de-CH"))
       .map((page) => ({
         url: page.url,
-        // have to remove heading, we want to have our own. also, the badge is lost in the parsed heading.
-        // random note on excerpt: it seems to compile links to .html, even though cleanLinks is enabled.
-        excerpt: page.excerpt?.replace("<h1", "<h1 hidden"),
+        // have to remove/hide heading, we want to have our own. btw, the team badge is lost in the parsed heading.
+        // also, it seems to compile links to .html, even though cleanLinks is enabled, just remove them manually.
+        // After some investigation, this is because the call to md.render in createContentLoader (https://github.com/vuejs/vitepress/blob/c61775a54f1742a181dd685d92dc29bd60de6440/src/node/contentLoader.ts#L147-L150)
+        // does not receive the MarkdownEnv it should (compare it to createMarkdownToVueRenderFn https://github.com/vuejs/vitepress/blob/c61775a54f1742a181dd685d92dc29bd60de6440/src/node/markdownToVue.ts#L122)
+        excerpt: page.excerpt?.replaceAll("<h1", "<h1 hidden").replaceAll(".html", ""),
         frontmatter: page.frontmatter,
         // if there are two consecutive #, there are sub-sections. could also check for content after '---'
         hasMoreInfo: page.src?.includes("##"),
