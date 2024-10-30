@@ -76,7 +76,7 @@ export default withPwa(defineConfig({
         {
           text: 'Regeln',
           items: [
-            { text: "Grundregeln", link: "/regeln" },
+            { text: "Grundregeln", link: "/regeln/" },
             { text: "Teams", link: "/regeln/teams" },
             { text: "Rollen", link: "/regeln/rollen" },
             { text: "Varianten", link: "/regeln/varianten" },
