@@ -1,5 +1,6 @@
 ---
 title: Werwolf
+id: werewolf
 head:
   - - meta
     - data-pagefind-meta: title

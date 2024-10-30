@@ -1,5 +1,6 @@
 ---
 title: Henker
+id: hangman
 head:
   - - meta
     - data-pagefind-meta: title

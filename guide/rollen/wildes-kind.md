@@ -1,5 +1,6 @@
 ---
 title: Wildes Kind
+id: wild_kid
 head:
   - - meta
     - data-pagefind-meta: title

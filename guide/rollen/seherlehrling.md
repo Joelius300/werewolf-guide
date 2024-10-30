@@ -1,5 +1,6 @@
 ---
 title: Seherlehrling
+id: seer_apprentice
 head:
   - - meta
     - data-pagefind-meta: title

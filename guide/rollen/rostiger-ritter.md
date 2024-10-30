@@ -1,5 +1,6 @@
 ---
 title: Rostiger Ritter
+id: rusty_knight
 head:
   - - meta
     - data-pagefind-meta: title

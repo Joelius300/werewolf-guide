@@ -1,5 +1,6 @@
 ---
 title: Magd
+id: maid
 head:
   - - meta
     - data-pagefind-meta: title

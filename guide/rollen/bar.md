@@ -1,5 +1,6 @@
 ---
 title: Bär
+id: bear
 head:
   - - meta
     - data-pagefind-meta: title

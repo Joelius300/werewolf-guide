@@ -1,5 +1,6 @@
 ---
 title: Fuchs
+id: fox
 head:
   - - meta
     - data-pagefind-meta: title

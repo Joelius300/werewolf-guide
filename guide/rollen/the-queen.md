@@ -1,5 +1,6 @@
 ---
 title: The Queen
+id: queen
 head:
   - - meta
     - data-pagefind-meta: title

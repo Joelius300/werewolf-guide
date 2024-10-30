@@ -1,5 +1,6 @@
 ---
 title: Seher
+id: seer
 head:
   - - meta
     - data-pagefind-meta: title

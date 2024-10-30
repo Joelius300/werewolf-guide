@@ -1,5 +1,6 @@
 ---
 title: Wolverine
+id: wolverine
 head:
   - - meta
     - data-pagefind-meta: title

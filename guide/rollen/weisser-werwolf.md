@@ -1,5 +1,6 @@
 ---
 title: Weisser Werwolf
+id: white_werewolf
 head:
   - - meta
     - data-pagefind-meta: title

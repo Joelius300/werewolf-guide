@@ -1,5 +1,6 @@
 ---
 title: Stotternder Richter
+id: stuttering_judge
 head:
   - - meta
     - data-pagefind-meta: title

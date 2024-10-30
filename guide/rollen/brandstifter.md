@@ -1,5 +1,6 @@
 ---
 title: Brandstifter
+id: arsonist
 head:
   - - meta
     - data-pagefind-meta: title

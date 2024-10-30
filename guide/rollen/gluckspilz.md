@@ -1,5 +1,6 @@
 ---
 title: Glückspilz
+id: lucky_devil
 head:
   - - meta
     - data-pagefind-meta: title

@@ -9,6 +9,7 @@ export function getDetailsMd(role: Role): string {
   let details =
     "---\n" +
     `title: ${role.name}\n` +
+    `id: ${role.id}\n` +
     "head:\n" +
     "  - - meta\n" +
     "    - data-pagefind-meta: title\n" +

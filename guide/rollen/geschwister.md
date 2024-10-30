@@ -1,5 +1,6 @@
 ---
 title: Geschwister
+id: siblings
 head:
   - - meta
     - data-pagefind-meta: title

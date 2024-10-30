@@ -1,5 +1,6 @@
 ---
 title: Dorfbewohner
+id: villager
 head:
   - - meta
     - data-pagefind-meta: title

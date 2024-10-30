@@ -1,5 +1,6 @@
 ---
 title: Urwolf
+id: great_werewolf
 head:
   - - meta
     - data-pagefind-meta: title

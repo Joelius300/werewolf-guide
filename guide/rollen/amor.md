@@ -1,5 +1,6 @@
 ---
 title: Amor
+id: cupid
 head:
   - - meta
     - data-pagefind-meta: title

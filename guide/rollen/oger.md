@@ -1,5 +1,6 @@
 ---
 title: Oger
+id: ogre
 head:
   - - meta
     - data-pagefind-meta: title
