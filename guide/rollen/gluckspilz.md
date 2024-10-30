@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Glückspilz
 ---
+
 # Glückspilz <TeamBadge team="Dorf" />
 
 Beim ersten Mal wo der Glückspilz in der Nacht angegriffen würde, z.B. durch die Werwölfe oder die Hexe, hat er unglaublich Glück und einer seiner Nachbarn ist zum falschen Zeitpunkt am falschen Ort und wird stattdessen angegriffen. Der Glückspilz selbst ist völlig unbetroffen vom Angriff.

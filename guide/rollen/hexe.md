@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Hexe
 ---
+
 # Hexe <TeamBadge team="Dorf" />
 
 Jede Nacht, nachdem die Werwölfe ihr Opfer bestimmt haben, erwacht die Hexe und ihr wird das Opfer gezeigt. Die Hexe verfügt über zwei Tränke, einen Heiltrank und einen Gifttrank. Mit dem Heiltrank kann sie das Opfer vom Sterben bewahren. Mit dem Gifttrank kann sie eine andere Person umbringen. Sie darf beide Tränke in derselben Nacht verwenden.

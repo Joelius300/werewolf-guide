@@ -8,6 +8,7 @@ head:
       property: og:title
       content: The Queen
 ---
+
 # The Queen <TeamBadge team="Dorf" />
 
 Die Queen erwacht jede Nacht nach dem Seher, wählt eine Person, welche von der Spielleitung geweckt wird, und winkt dieser mit dem ikonischen Winken der Queen zu. Dadurch erfährt die geweckte Person, wer die Queen ist, und dass sie entsprechend keine andere Rolle hat.

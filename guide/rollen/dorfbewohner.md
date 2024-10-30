@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Dorfbewohner
 ---
+
 # Dorfbewohner <TeamBadge team="Dorf" />
 
 Die Dorfbewohner sind zwar simpel aber anspruchsvoll und wichtig. Da sie keine Informationen in der Nacht erlangen, müssen sie sich den Social-Deduction Aspekt des Spiels zu Herzen nehmen und mit ihren Worten und Instinkte die Werwölfe enttarnen.

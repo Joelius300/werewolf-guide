@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Rostiger Ritter
 ---
+
 # Rostiger Ritter <TeamBadge team="Dorf" />
 
 Wenn die Werwölfe den Rostigen Ritter in der Nacht töten, verwundet er den _ersten Werwolf links von ihm_. In der nächsten Nacht stirbt der verwundete Werwolf an den Folgen. Dagegen kann nicht beschützt oder geheilt werden und die Dorfmatratze hat keinen Einfluss auf den Tod des Werwolfs.  

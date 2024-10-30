@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Mafiaboss
 ---
+
 # Mafiaboss <TeamBadge team="Mafia" />
 
 Jede zweite Nacht wählt der Mafiaboss ein neues Mitglied in die Mafia auf ein Maximum von einem Viertel der Spieler (dann darf er keine Personen mehr wählen bis ein Mafioso stirbt). Die Personen der Mafia versuchen alle anderen Spieler auszuschalten und als letztes zu leben. Die Mafia hat eine höhere Priorität als Werwölfe aber eine tiefere als z.B. der Weisse Werwolf oder das Pärchen. Der Mafiaboss muss beschützt werden, denn wenn er stirbt, löst sich die Mafia auf und die Personen werden wieder "normal". Ebenfalls verbringen die ehemaligen Mafiamitglieder (auch die, die nicht mit der Mafia gewonnen hätten, z.B. verliebte Mafiosi) die Nacht nach dem Tod des Bosses mit Trauer und können keine Fähigkeiten einsetzen.

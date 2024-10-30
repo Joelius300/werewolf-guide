@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Werwolf
 ---
+
 # Werwolf <TeamBadge team="Werwölfe" />
 
 Jede Nacht, können alle Werwölfe zusammen ein Opfer wählen, welches sie ermorden werden. Sie müssen sich einstimmig entscheiden, ansonsten stirbt niemand.

@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Wolverine
 ---
+
 # Wolverine <TeamBadge team="Werwölfe" />
 
 Falls der Wolverine der nächste Werwolf an dem diesnächtigen Werwolf-Opfer ist, hört man in der Nacht ein metallisches Klingen.

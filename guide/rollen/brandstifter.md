@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Brandstifter
 ---
+
 # Brandstifter <TeamBadge team="Einzelgänger" />
 
 Jede Nacht muss der Brandstifter entweder eine Person mit Benzin übergiessen oder alle bisher übergossenen Personen anzünden und damit töten. Man kann nicht von der Hexe geheilt oder von Beschützer geschützt werden. Bezüglich [Dorfmatratze](/rollen/dorfmatratze): Man kann nicht übergossen werden, wenn man nicht zuhause ist, aber Besucher werden auch übergossen und brennen mit, falls der Host übergossen bzw. angezündet wird.

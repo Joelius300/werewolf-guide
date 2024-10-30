@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Weisser Werwolf
 ---
+
 # Weisser Werwolf <TeamBadge team="Einzelgänger" />
 
 Der weisse Werwolf ist zwar ein Werwolf aber spielt für sich alleine und kann nur als letzte Person im Spiel gewinnen. Neben der normalen Werwolfnacht, wacht er zusätzlich jede zweite Nacht ohne die anderen Werwölfe auf und darf ein weiteres Opfer wählen. Die Hexe kann dieses nicht retten aber der Schutz des Beschützers & der Dorfmatratze schützen vom weissen Werwolf.

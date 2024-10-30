@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Magd
 ---
+
 # Magd <TeamBadge team="Dorf / Unklar" />
 
 Die Magd kann sich direkt nach der Ankündigung eines Todes (aber vor dem Aufdecken der Karte) als dessen Magd offenbaren und die Karte sowie den Platz der gerade gestorbenen Person übernehmen. Wenn die Magd verliebt ist, darf sie das nicht. Wenn die Magd verwandelt oder in der Mafia war, bleibt sie das auch weiterhin als die neue Rolle. Wenn die verstorbene Person verwandelt, verliebt oder in der Mafia war, ist dies die Magd **nicht** mehr.

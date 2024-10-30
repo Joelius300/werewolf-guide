@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Seher
 ---
+
 # Seher <TeamBadge team="Dorf" />
 
 Jede Nacht darf der Seher die Karte einer anderen Person ansehen.

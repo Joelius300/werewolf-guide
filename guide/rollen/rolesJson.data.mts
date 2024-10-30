@@ -1,3 +1,4 @@
+// THIS IS LEGACY, ONLY USED FOR TRANSLATING roles.json INTO MARKDOWN FILES
 import { defineLoader } from 'vitepress'
 import fs from 'node:fs/promises'
 import path from 'node:path'
@@ -22,7 +23,7 @@ export default defineLoader({
   async load(watchedFiles?: string[]): Promise<Data> {
     let file: string;
     if (watchedFiles == null) {
-      // we're loading dynamically, so by explicitly calling load()
+      // we're loading dynamically, so by explicitly calling load(),
       // and need to resolve the correct path ourself.
       file = path.join(import.meta.dirname, ASSET_PATH);
     } else {

@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Wildes Kind
 ---
+
 # Wildes Kind <TeamBadge team="Dorf / Werwölfe" />
 
 Das wilde Kind wählt in der ersten Nacht ein Vorbild. Sobald dieses Vorbild tot ist, wird das wilde Kind zum normalen Werwolf. Vorher hat es die Rolle eines normalen Dorfbewohners. Der Bär und der Fuchs sehen das Kind also erst als Gefahr an, wenn es verwandelt wurde. Der Seher sieht jedoch die Karte und somit auch, dass es sich noch verwandeln könnte.

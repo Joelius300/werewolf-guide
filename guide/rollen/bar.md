@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Bär
 ---
+
 # Bär <TeamBadge team="Dorf" />
 
 Der Bär hat eine passive Fähigkeit. Jeden Morgen brummt es, wenn links oder rechts neben ihm (Tote ausgeschlossen) ein _aktiver_ Werwolf sitzt (also auch verwandelte Dorfbewohner).

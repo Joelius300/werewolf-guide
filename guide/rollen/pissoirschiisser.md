@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Pissoirschiisser
 ---
+
 # Pissoirschiisser <TeamBadge team="Dorf" />
 
 Niemand mag den anonymen Pissoirscheisser. Seit Ewigkeiten scheisst er ins Dorfpissoir und zieht dadurch den Hass des Dorfes auf sich. Solange der Pissoirscheisser lebt, tötet das Dorf täglich zwei Spieler aus Wut.

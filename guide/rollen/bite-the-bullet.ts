@@ -1,3 +1,6 @@
+// THIS IS LEGACY, ONLY USED FOR TRANSLATING roles.json INTO MARKDOWN FILES
+// execute it with deno, gotta give a lot of permissions.
+// deno --allow-read --allow-sys --allow-env --allow-ffi --allow-write guide/rollen/bite-the-bullet.ts
 import roleLoader, { type Role } from "./rolesJson.data.mts"
 import { getDetailsMd } from "./roleDynamicContent.mts"
 import { slugify } from '@mdit-vue/shared'

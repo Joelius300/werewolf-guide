@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Urwolf
 ---
+
 # Urwolf <TeamBadge team="Werwölfe" />
 
 Der Urwolf darf einmal im Spiel das gewählte Opfer der Werwölfe in einen Werwolf verwandeln statt es zu töten. Der Heiltrank der Hexe und der Schutz des Beschützers haben keinen Einfluss auf diese Verwandlung. Falls die Person aber nicht "zuhause" ist, wird sie nicht verwandelt und die Kräfte gehen verloren. Wenn die Person, die verwandelt werden soll, Besuch hat, wird die richtige Person verwandelt und die andere stirbt.

@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Geschwister
 ---
+
 # Geschwister <TeamBadge team="Dorf" />
 
 Die Geschwister spielen für das Dorf aber sie kennen sich und können somit für einander einstehen. Diese Rolle ist sehr stark, da sie Ausschlussverfahren deutlich vereinfachen können.  

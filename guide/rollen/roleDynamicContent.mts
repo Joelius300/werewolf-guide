@@ -1,3 +1,4 @@
+// THIS IS LEGACY, ONLY USED FOR TRANSLATING roles.json INTO MARKDOWN FILES
 import { type Role } from "./roles.data.mts"
 import { slugify } from '@mdit-vue/shared'
 
@@ -16,7 +17,7 @@ export function getDetailsMd(role: Role): string {
     "    - data-pagefind-meta: title\n" +
     "      property: og:title\n" +
     `      content: ${role.name}\n` +
-    "---\n" +
+    "---\n\n" +
     `# ${role.name} ` +
     `<TeamBadge team="${role.team}" />` +
     '\n' +

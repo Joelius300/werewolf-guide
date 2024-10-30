@@ -8,6 +8,7 @@ head:
       property: og:title
       content: Oger
 ---
+
 # Oger <TeamBadge team="Dorf" />
 
 Der Oger scheisst jede Nacht jemandem vor die Tür (nicht derselben Person zweimal nacheinander). Diese Person kann dann morgens nicht aus dem Haus und darf somit am Tag weder sprechen noch abstimmen. Sie darf aber gestikulieren. Wenn die [kanadische Variante](/regeln/varianten#kanadische-variante) gespielt wird, darf die Person während der Gespräche auch sprechen aber den Kreis nicht verlassen (und Abstimmen bleibt verboten).
