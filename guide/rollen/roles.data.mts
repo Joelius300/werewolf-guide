@@ -1,6 +1,6 @@
 import { defineLoader } from 'vitepress'
-import fs from 'fs/promises'
-import path from 'path'
+import fs from 'node:fs/promises'
+import path from 'node:path'
 
 export interface Role {
   id: string
@@ -14,10 +14,6 @@ export interface Role {
 
 type Data = Role[]
 
-// these two lines are just for typing
-declare const data: Data
-export { data }
-
 // relative to this loader (!)
 const ASSET_PATH = '../assets/roles.json';
 
@@ -28,7 +24,7 @@ export default defineLoader({
     if (watchedFiles == null) {
       // we're loading dynamically, so by explicitly calling load()
       // and need to resolve the correct path ourself.
-      file = path.join(__dirname, ASSET_PATH);
+      file = path.join(import.meta.dirname, ASSET_PATH);
     } else {
       // we already get the correct path from the current working directory,
       // resolved by vitepress for us.

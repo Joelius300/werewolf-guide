@@ -7,6 +7,14 @@ export function createRolesSidebar(roles: Role[]) {
 
 export function getDetailsMd(role: Role): string {
   let details =
+    "---\n" +
+    `title: ${role.name}\n` +
+    "head:\n" +
+    "  - - meta\n" +
+    "    - data-pagefind-meta: title\n" +
+    "      property: og:title\n" +
+    `      content: ${role.name}\n` +
+    "---\n" +
     `# ${role.name} ` +
     `<TeamBadge team="${role.team}" />` +
     '\n' +
