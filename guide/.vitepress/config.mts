@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress"
+import { v4 as uuid } from 'uuid';
 import { createRolesSidebar } from "../rollen/roleDynamicContent.mts"
 import roleLoader from "../rollen/roles.data.mts"
 import mdFootnotes from 'markdown-it-footnote'
@@ -24,6 +25,7 @@ export default withPwa(defineConfig({
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: base + 'images/favicon-16x16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: base + 'images/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: base + 'manifest.webmanifest' }],
+    ['link', { rel: 'sitemap', type: "application/xml", title: "Sitemap", href: base + 'sitemap.xml' }],
     ['meta', { name: 'theme-color', content: '#3a5ccc' }],
     // Verification for Google Search Console (analytics about which search terms led to this page)
     ['meta', { name: 'google-site-verification', content: 'UK8Uo_AzfqRzcTvNzPlxOZl3TVCVWxW2gGTjEr6qpAw' }],
@@ -133,8 +135,20 @@ export default withPwa(defineConfig({
     // to be recognized as an update and applied to users automatically.
     filename: "service-worker.js",
     workbox: {
-      // include more file types for pre-caching, maybe fixes sitemap?
+      // include more file types for pre-caching to make everything work offline.
       globPatterns: ['**/*.{css,js,html,svg,jpg,png,ico,txt,woff2,xml}'],
+      additionalManifestEntries: [
+        /* Workbox is a tool to simplify the creation of a service-worker. It pre-caches
+         * certain assets like images etc. to make everything work offline. The glob above
+         * does that for all the files in the public folder. Since the sitemap is generated later,
+         * I'm adding this here as well. Note that you either need to set the revision to some value
+         * that is updated when the file is changed as well (and needs to be re-fetched), or revision: null
+         * signals that the url itself is already unique (e.g. {url:"assets/app.13NNkQvZ.js",revision:null}).
+         * To make sure it always gets the latest sitemap, let's just pick a random revision when building :)
+         * Removing the dashes turns it into the same format as the automatically generated revisions.
+          */
+        { url: "sitemap.xml", revision: uuid().replaceAll("-", "") }
+      ]
     },
   },
 }));
