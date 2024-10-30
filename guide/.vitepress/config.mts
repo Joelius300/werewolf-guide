@@ -49,7 +49,9 @@ export default withPwa(defineConfig({
       toNavigate: 'Navigieren',
       toClose: 'Schliessen',
       searchBy: 'Powered by',
-      // modified pagefind command to not exclude a.header-anchor, otherwise all the h1 tags on the pages are ignored
+      // modified pagefind command to not exclude a.header-anchor, otherwise all the h1 tags on the pages are ignored.
+      // But even with this, it still doesn't find "Brandstifter" despite there being /rollen/brandstifter.html with
+      // an <h1> tag containing Brandstifter... not sure why the fuck it's doing this.
       indexingCommand: 'npx pagefind --site "guide/.vitepress/dist" --exclude-selectors "div.aside"',
     })],
   },
