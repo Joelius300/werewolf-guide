@@ -3,7 +3,6 @@ import { v4 as uuid } from 'uuid';
 import { createRolesSidebar } from "../rollen/roleDynamicContent.mts"
 import roleLoader from "../rollen/roles.data.mts"
 import mdFootnotes from 'markdown-it-footnote'
-import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 import { withPwa } from '@vite-pwa/vitepress'
 
 const base = '/werewolf-guide/';
@@ -38,22 +37,6 @@ export default withPwa(defineConfig({
     config: (md) => {
       md.use(mdFootnotes)
     }
-  },
-  vite: {
-    plugins: [pagefindPlugin({
-      btnPlaceholder: 'Suche',
-      placeholder: 'Durchsuchen',
-      emptyText: 'Keine Resultate.',
-      heading: 'Gefunden: {{searchResult}} Resultate',
-      toSelect: 'Auswählen',
-      toNavigate: 'Navigieren',
-      toClose: 'Schliessen',
-      searchBy: 'Powered by',
-      // modified pagefind command to not exclude a.header-anchor, otherwise all the h1 tags on the pages are ignored.
-      // But even with this, it still doesn't find "Brandstifter" despite there being /rollen/brandstifter.html with
-      // an <h1> tag containing Brandstifter... not sure why the fuck it's doing this.
-      indexingCommand: 'npx pagefind --site "guide/.vitepress/dist" --exclude-selectors "div.aside"',
-    })],
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
