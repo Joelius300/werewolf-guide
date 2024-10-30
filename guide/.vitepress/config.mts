@@ -132,5 +132,9 @@ export default withPwa(defineConfig({
     // same filename as vuepress-pwa plugin, allows this framework change
     // to be recognized as an update and applied to users automatically.
     filename: "service-worker.js",
+    workbox: {
+      // include more file types for pre-caching, maybe fixes sitemap?
+      globPatterns: ['**/*.{css,js,html,svg,jpg,png,ico,txt,woff2,xml}'],
+    },
   },
 }));
