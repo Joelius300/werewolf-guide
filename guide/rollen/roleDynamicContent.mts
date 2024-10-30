@@ -10,6 +10,7 @@ export function getDetailsMd(role: Role): string {
     "---\n" +
     `title: ${role.name}\n` +
     `id: ${role.id}\n` +
+    `team: ${role.team}\n` +
     "head:\n" +
     "  - - meta\n" +
     "    - data-pagefind-meta: title\n" +

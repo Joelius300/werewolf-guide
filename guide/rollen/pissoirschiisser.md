@@ -1,6 +1,7 @@
 ---
 title: Pissoirschiisser
 id: pissoirschiisser
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

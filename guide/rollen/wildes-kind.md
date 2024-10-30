@@ -1,6 +1,7 @@
 ---
 title: Wildes Kind
 id: wild_kid
+team: Dorf / Werwölfe
 head:
   - - meta
     - data-pagefind-meta: title

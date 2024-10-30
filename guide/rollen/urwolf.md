@@ -1,6 +1,7 @@
 ---
 title: Urwolf
 id: great_werewolf
+team: Werwölfe
 head:
   - - meta
     - data-pagefind-meta: title

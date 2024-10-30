@@ -1,6 +1,7 @@
 ---
 title: Seherlehrling
 id: seer_apprentice
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

@@ -1,6 +1,7 @@
 ---
 title: Amor
 id: cupid
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

@@ -1,6 +1,7 @@
 ---
 title: Weisser Werwolf
 id: white_werewolf
+team: Einzelgänger
 head:
   - - meta
     - data-pagefind-meta: title

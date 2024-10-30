@@ -1,6 +1,7 @@
 ---
 title: Dorfmatratze
 id: whore
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

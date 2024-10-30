@@ -1,6 +1,7 @@
 ---
 title: Oger
 id: ogre
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

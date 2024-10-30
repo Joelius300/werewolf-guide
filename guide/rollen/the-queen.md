@@ -1,6 +1,7 @@
 ---
 title: The Queen
 id: queen
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

@@ -1,6 +1,7 @@
 ---
 title: Glückspilz
 id: lucky_devil
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

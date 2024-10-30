@@ -1,6 +1,7 @@
 ---
 title: Beschützer
 id: guardian
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

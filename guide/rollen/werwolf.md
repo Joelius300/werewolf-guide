@@ -1,6 +1,7 @@
 ---
 title: Werwolf
 id: werewolf
+team: Werwölfe
 head:
   - - meta
     - data-pagefind-meta: title

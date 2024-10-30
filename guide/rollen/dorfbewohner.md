@@ -1,6 +1,7 @@
 ---
 title: Dorfbewohner
 id: villager
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

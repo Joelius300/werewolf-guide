@@ -1,6 +1,7 @@
 ---
 title: Bär
 id: bear
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

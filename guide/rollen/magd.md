@@ -1,6 +1,7 @@
 ---
 title: Magd
 id: maid
+team: Dorf / Unklar
 head:
   - - meta
     - data-pagefind-meta: title

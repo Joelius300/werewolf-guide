@@ -1,6 +1,7 @@
 ---
 title: Rostiger Ritter
 id: rusty_knight
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

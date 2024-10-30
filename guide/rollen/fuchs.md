@@ -1,6 +1,7 @@
 ---
 title: Fuchs
 id: fox
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

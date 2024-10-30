@@ -1,6 +1,7 @@
 ---
 title: Henker
 id: hangman
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

@@ -1,6 +1,7 @@
 ---
 title: Brandstifter
 id: arsonist
+team: Einzelgänger
 head:
   - - meta
     - data-pagefind-meta: title

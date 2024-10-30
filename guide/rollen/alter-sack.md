@@ -1,6 +1,7 @@
 ---
 title: Alter Sack
 id: old_dude
+team: Einzelgänger
 head:
   - - meta
     - data-pagefind-meta: title

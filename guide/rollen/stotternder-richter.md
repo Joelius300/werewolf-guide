@@ -1,6 +1,7 @@
 ---
 title: Stotternder Richter
 id: stuttering_judge
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

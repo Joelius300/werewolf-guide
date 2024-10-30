@@ -1,6 +1,7 @@
 ---
 title: Hexe
 id: witch
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

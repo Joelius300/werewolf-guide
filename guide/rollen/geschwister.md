@@ -1,6 +1,7 @@
 ---
 title: Geschwister
 id: siblings
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

@@ -1,6 +1,7 @@
 ---
 title: Seher
 id: seer
+team: Dorf
 head:
   - - meta
     - data-pagefind-meta: title

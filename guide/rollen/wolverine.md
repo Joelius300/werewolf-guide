@@ -1,6 +1,7 @@
 ---
 title: Wolverine
 id: wolverine
+team: Werwölfe
 head:
   - - meta
     - data-pagefind-meta: title

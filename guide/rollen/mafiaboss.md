@@ -1,6 +1,7 @@
 ---
 title: Mafiaboss
 id: mafiaboss
+team: Mafia
 head:
   - - meta
     - data-pagefind-meta: title
