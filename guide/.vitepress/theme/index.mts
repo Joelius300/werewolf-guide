@@ -1,11 +1,9 @@
 import type { Theme as ThemeType } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
-import Theme from 'vitepress/theme'
 import TeamBadge from "./components/TeamBadge.vue";
-import RegisterSW from './components/RegisterSW.vue';
 import { createPlausibleTracker, type Plausible } from '@barbapapazes/plausible-tracker'
 import "./custom.css"
+import CustomLayout from "./CustomLayout.vue"
 import { useAutoPageviews, useAutoOutboundTracking } from '@barbapapazes/plausible-tracker/extensions';
 
 declare global {
@@ -17,11 +15,7 @@ declare global {
 export default {
   extends: DefaultTheme,
   // Layout: if need client-side redirect: https://github.com/vuejs/vitepress/issues/4160
-  Layout() {
-    return h(Theme.Layout, null, {
-      'layout-bottom': () => h(RegisterSW)
-    })
-  },
+  Layout: CustomLayout,
   enhanceApp({ app }) {
     // register additional global components (usable in .md without import)
     app.component('TeamBadge', TeamBadge);
