@@ -13,7 +13,6 @@ declare global {
 }
 
 export default {
-  extends: DefaultTheme,
   // Layout: if need client-side redirect: https://github.com/vuejs/vitepress/issues/4160
   Layout: CustomLayout,
   enhanceApp({ app }) {
