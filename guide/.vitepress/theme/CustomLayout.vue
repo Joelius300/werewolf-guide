@@ -15,6 +15,11 @@ const {
   sidebarGroups: sidebarGroups,
 } = useSidebar();
 
+// these print the correct sidebars, but calling openSidebar
+// does not open the ones that are printed here!!!
+console.log(sidebar.value);
+console.log(sidebarGroups.value);
+
 const touchStart = { x: 0, y: 0 };
 
 const onTouchStart = (e: TouchEvent): void => {
