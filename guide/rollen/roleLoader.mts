@@ -7,7 +7,7 @@ import fs from "node:fs/promises"
 
 const guideDir = path.join(import.meta.dirname, "../.")
 
-async function getRolePaths() {
+export async function getRolePaths() {
   /**
    * Get all the absolute paths of the markdown files containing
    * role descriptions.
@@ -23,17 +23,23 @@ async function getRolePaths() {
   return allPaths;
 }
 
-async function parseFrontmatter(filePath: string) {
+export async function parseFrontmatter(filePath: string) {
   const content = await fs.readFile(filePath, { encoding: 'utf8' });
-  const { data } = matter(content);
 
-  return data;
+  return matter(content);
+}
+
+export function fileToPath(filePath: string, clean?: boolean) {
+  /** Returns the absolute url to a file-based route rooted at /.
+   * Returns a clean link by default.
+   */
+  return "/" + path.relative(guideDir, filePath).replace(".md", clean === false ? ".html" : "")
 }
 
 async function pathToSidebarEntry(filePath: string): SidebarItem {
-  const frontmatter = await parseFrontmatter(filePath);
+  const { data: frontmatter } = await parseFrontmatter(filePath);
   // paths must be absolute, based on root, which in this file-based routing scenario is the guide dir
-  return { text: frontmatter.title, link: "/" + path.relative(guideDir, filePath).replace(".md", "") }
+  return { text: frontmatter.title, link: fileToPath(filePath) }
 }
 
 export async function createRolesSidebar() {
