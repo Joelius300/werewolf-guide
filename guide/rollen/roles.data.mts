@@ -1,74 +1,35 @@
-import { ContentData, createMarkdownRenderer, defineLoader, SiteConfig } from 'vitepress'
-import { fileToPath, getRolePaths, parseFrontmatter } from './roleLoader.mts';
-import fs from "node:fs/promises"
+import { ContentData, createContentLoader } from 'vitepress'
 
-interface Page extends ContentData {
-  hasMoreInfo: boolean
-}
+// createContentLoader take a glob pattern relative to the src path (/guide/)
+// but includes index.md, which is of course really annoying.
+// Could also do it yourself, just re-implementing createContentLoader,
+// but that's only worth it if you can reuse resources. Tried in f14c6a5, don't think it's worth.
+export default createContentLoader("rollen/*.md", {
+  includeSrc: true,
+  render: false,
+  excerpt: true,
+  // globOptions: {
+  //   doesn't work either
+  //   ignore: "**/index.md",
+  // },
+  transform(data: ContentData[]) {
+    // manually remove index.md because of course we don't want the index page in here.
+    // WHY DOES IT INCLUDE THAT; THIS MUST BE THE N.1 REASON TO USE createContentLoader?!
+    data.splice(data.findIndex((p) => p.url == "/rollen/"), 1);
 
-type Data = Page[]
-
-// these two lines are just for typing
-declare const data: Data
-export { data }
-
-/* Heavily inspired by contentLoader (https://github.com/vuejs/vitepress/blob/main/src/node/contentLoader.ts)
-  * but it's simplified a lot, assumes cleanUrls and doesn't take into account some options I'm not using anyway.
-  *
-  */
-export default defineLoader({
-  watch: "*.md",
-  async load(_watchedFiles) {
-    // ignore the files passed by vitepress, it's just the glob-result of the watch-pattern.
-    // could either remove index.md from this or just use our already existing function.
-    const paths = await getRolePaths();
-
-    const config: SiteConfig = (globalThis as any).VITEPRESS_CONFIG;
-    const cache = new Map<string, { data: any; timestamp: number }>();
-
-    const md = await createMarkdownRenderer(
-      config.srcDir,
-      config.markdown,
-      config.site.base,
-      config.logger
-    );
-
-    // there are other options that could be incorporated here,
-    // but currently I don't use them so it's simpler this way.
-    // If something isn't rendered quite right in the index page, this might be why :)
-    const mdEnv = { cleanUrls: !!config.cleanUrls }
-
-    const out: Page[] = []
-
-    for (const file of paths) {
-      const timestamp = (await fs.stat(file)).mtimeMs;
-      const cached = cache.get(file);
-      if (cached && timestamp === cached.timestamp) {
-        out.push(cached.data);
-      } else {
-        const { content, data: frontmatter, excerpt } = await parseFrontmatter(file);
-        const url = fileToPath(file, config.cleanUrls);
-        const renderedExcerpt = md.render(excerpt!, mdEnv);
-
-        const data: Page = {
-          src: content,
-          html: undefined,
-          frontmatter,
-          // excerpt includes heading, either remove it before rendering or hide it after
-          excerpt: renderedExcerpt.replaceAll("<h1", "<h1 hidden"),
-          url,
-          // if there are two or more consecutive #, there are sub-sections. could also check for content after '---'
-          hasMoreInfo: content.includes("##")
-        };
-
-        cache.set(file, { data, timestamp });
-        out.push(data);
-      }
-    }
-
-    console.log(out);
-
-    return out
+    // TODO Use the lang that is currently used in Vitepress for localCompare
+    return data.sort((a, b) => a.frontmatter.title.localeCompare(b.frontmatter.title, "de-CH"))
+      .map((page) => ({
+        url: page.url,
+        // have to remove/hide heading, we want to have our own. btw, the team badge is lost in the parsed heading.
+        // also, it seems to compile links to .html, even though cleanLinks is enabled, just remove them manually.
+        // After some investigation, this is because the call to md.render in createContentLoader (https://github.com/vuejs/vitepress/blob/c61775a54f1742a181dd685d92dc29bd60de6440/src/node/contentLoader.ts#L147-L150)
+        // does not receive the MarkdownEnv it should (compare it to createMarkdownToVueRenderFn https://github.com/vuejs/vitepress/blob/c61775a54f1742a181dd685d92dc29bd60de6440/src/node/markdownToVue.ts#L122)
+        // Issue for it: https://github.com/vuejs/vitepress/issues/4331
+        excerpt: page.excerpt?.replaceAll("<h1", "<h1 hidden").replaceAll(".html", ""),
+        frontmatter: page.frontmatter,
+        // if there are two consecutive #, there are sub-sections. could also check for content after '---'
+        hasMoreInfo: page.src?.includes("##"),
+      }))
   },
-});
-
+})

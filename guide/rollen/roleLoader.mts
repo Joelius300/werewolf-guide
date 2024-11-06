@@ -7,7 +7,7 @@ import fs from "node:fs/promises"
 
 const guideDir = path.join(import.meta.dirname, "../.")
 
-export async function getRolePaths() {
+async function getRolePaths() {
   /**
    * Get all the absolute paths of the markdown files containing
    * role descriptions.
@@ -23,7 +23,7 @@ export async function getRolePaths() {
   return allPaths;
 }
 
-export async function parseFrontmatter(filePath: string) {
+async function parseFrontmatter(filePath: string) {
   const content = await fs.readFile(filePath, { encoding: 'utf8' });
 
   return matter(content);
