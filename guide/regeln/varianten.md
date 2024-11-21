@@ -35,7 +35,7 @@ Andere zu belauschen und beobachten ist erlaubt aber andere zu belästigen, verf
 
 - Wenn sich Lebendige und Tote am Tag vermischen, sollten sie klar gekennzeichnet werden.
 - Wenn sich viele Personen nicht kennen, macht es Sinn, die Personen mit deren Namen zu beschriften.
-- Da dieses Format die Länge der bereits zeitaufwändigen Werwolfrunden deutlich erhöht, sollte es Beschäftigungen für die ausgeschiedenen Spieler geben. Wenn das Spiel als Party Spiel gespielt wird, ist das kein Problem, da die ausgeschiedenen Spieler zur Party zurückkehren können. Wenn nicht, kann man ihnen z.B. einen Rückzugsort geben und dort ev. noch kleinere Spiele bereitlegen. Alternativ kann diese Variante mit der [Geister-Variante](#geister-variante) kombiniert werden.
+- Da dieses Format die Länge der bereits zeitaufwändigen Werwolfrunden deutlich erhöht, sollte es Beschäftigungen für die ausgeschiedenen/toten geben. Wenn das Spiel als Party Spiel gespielt wird, ist das kein Problem, da die ausgeschiedenen zur Party zurückkehren können. Wenn nicht, kann man ihnen z.B. einen Rückzugsort geben und dort ev. noch kleinere Spiele bereitlegen. Alternativ kann diese Variante mit der [Geister-Variante](#geister-variante) kombiniert werden.
 
 ## Geister-Variante
 
@@ -54,7 +54,7 @@ Wenn eine Person stirbt, spielt diese unter folgenden Bedingungen weiterhin beim
 - Die Person verliert alle Fähigkeiten (Aufwachen als Werwolf, Tränke nutzen als Hexe, zweite Abstimmung einrufen als Richter, etc.).
 - Die Person darf niemanden mehr anklagen.
 - Die Person darf nur noch einmal im Spiel abstimmen. \
-  Damit klar ist, wer von den Toten noch eine Stimme übrig hat, wird beim Tod ein Voting-Chip (ein beliebiger Gegenstand) übergeben. Wenn eine tote Person sich entscheidet bei einer Abstimmung teilzunehmen, hebt sie den Voting-Chip sichtbar in der Hand, die sie für die Abstimmung hebt und gibt ihn dann ab. Wenn Spieler diesen Chip bis zum Ende des Spiels aufsparen können, hat das Dorf einen grossen Vorteil. Um das zu bekämpfen kann definiert werden, dass ein Voting-Chip nach 3 Abstimmungen ohne Verwendung verfällt.
+  Damit klar ist, wer von den Toten noch eine Stimme übrig hat, wird beim Tod ein Voting-Chip (ein beliebiger Gegenstand) übergeben. Wenn eine tote Person sich entscheidet bei einer Abstimmung teilzunehmen, hebt sie den Voting-Chip sichtbar in der Hand, die sie für die Abstimmung hebt und gibt ihn dann ab. Wenn dieser Chip bis zum Ende des Spiels aufgespart werden kann, hat das Dorf einen grossen Vorteil. Um das zu bekämpfen kann definiert werden, dass ein Voting-Chip nach 3 Abstimmungen ohne Verwendung verfällt.
 
 Neben diesen Limitierungen spielt die Person weiterhin beim Spiel mit, das heisst: Einschlafen mit den anderen, mitdiskutieren am Tag und weiterhin versuchen ihr Team zum Sieg zu bringen.
 
@@ -67,12 +67,12 @@ Abgesehen davon, dass dieser Text geschrieben bevor die Variante ausprobiert wur
 BOTC hat ein anderes Voting-System, welches folgendem Ablauf folgt:
 
 - Einzelne Person nominieren (anklagen)
-- Abstimmen (Stimmen zählen für diese Person, lebende Spieler dürfen für mehrere Personen pro Tag stimmen)
-- Auswerten (wenn die Anzahl Stimmen grösser oder gleich der Hälfte der Anzahl **lebender** Spieler ist, erfolgt die Abstimmung)
+- Abstimmen (Stimmen zählen für diese Person, lebende Personen dürfen für mehrere Personen pro Tag stimmen)
+- Auswerten (wenn die Anzahl Stimmen grösser oder gleich der Hälfte der Anzahl **lebender** Personen ist, erfolgt die Abstimmung)
 - Letzte 3 Schritte wiederholen bis keine Anklagen mehr kommen oder Moderator genug hat
 - Von allen erfolgreichen Abstimmungen die Person töten, die am meisten Stimmen gegen sich hatte. Wenn keine Abstimmung erfolgreich war oder es ein Unentschieden gibt, stirbt niemand.
 
-Da in BOTC das Abstimmungergebnis direkt von der Anzahl lebender Spieler abhängig ist und eine Person für mehrere nominierte stimmen kann, bin ich unsicher, ob die eine "Geisterstimme" für den Rest des Spiels in Werwolf denselben Effekt hat.
+Da in BOTC das Abstimmungergebnis direkt von der Anzahl lebender Personen abhängig ist und eine Person für mehrere nominierte stimmen kann, bin ich unsicher, ob die eine "Geisterstimme" für den Rest des Spiels in Werwolf denselben Effekt hat.
 
 Ein weiteres potentielles Problem ist, dass im "vanilla" Werwolf fast nur gute Personen in der Nacht sterben, und wenn nicht, gibt es meist eine Hexe, die Klarheit über die Situation geben kann. In BOTC hingegen gibt es diese grundsätzliche logische Klarheit weniger. Es können viele unerwartete Dinge passieren, durch Rollen, Fähigkeiten, Eingriffe des Moderators, etc. was die Identität der Toten besser verschleiert. Dies ist ein zweischneidiges Schwert, weil Komplexität und Verschleierung zu einem spannenderen Spiel oder aber zu Verwirrung, Zufall und Spassverderben führen können. \
 Ein spannendes solches Spielelement, das BOTC nutzt, um Informationen zu verschleiern und Komplexität zu erhöhen, ist Drunk bzw. Poisoned. Wenn eine Person Drunk/Poisoned ist, gehen ihre Fähigkeiten ins Nichts. Das heisst, Beschützer beschützt niemanden, Hexe heilt/tötet niemanden, Urwolf verwandelt niemanden, etc. Der Punkt dabei ist, dass diese Personen nicht wissen, dass sie Drunk/Poisoned sind, was die grundsätzliche Verwirrung im Spiel deutlich erhöht. Ich denke, dass eine solche Spielmechanik auch in Werwolf seinen Platz finden könnte.

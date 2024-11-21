@@ -16,4 +16,5 @@ Jede zweite Nacht darf der Fuchs eine Dreiergruppe (drei lebende Personen nebene
 ---
 
 ### Tipps
+
 Nicht vergessen: Du erfährst nicht, ob die Person in der Mafia ist. Ebenfalls könnte sie später noch verwandelt werden (Wildes Kind, Urwolf).

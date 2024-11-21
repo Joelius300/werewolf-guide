@@ -16,7 +16,9 @@ Die Magd kann sich direkt nach der Ankündigung eines Todes (aber vor dem Aufdec
 ---
 
 ### Tipps
+
 Da die Verwandlung einer Person nicht an die Magd übergeben wird, kann sie verwendet werden, um verwandelte zu "heilen". Wenn die Hexe nämlich verwandelt wurde, kann das Dorf sie töten, die Magd ihre Rolle übernehmen und nun hat das Dorf wieder eine Hexe, die nicht mehr verwandelt ist.
 
 ### Tipps für Spielleitung
+
 Wenn so gespielt wird, dass die Karten nach dem Tod aufgedeckt werden, stelle sicher, dass die Toten ihre Karten nicht zu schnell aufdecken, damit die Magd genügend Zeit hat einzuspringen.

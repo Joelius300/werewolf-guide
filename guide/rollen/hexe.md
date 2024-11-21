@@ -16,8 +16,10 @@ Jede Nacht, nachdem die Werwölfe ihr Opfer bestimmt haben, erwacht die Hexe und
 ---
 
 ### Varianten
+
 Die Anzahl Tränke und ob beide Tränke gleichzeitig verwendet werden dürfen, wird von diversen Personen verschieden gespielt.
 
 ### Tipps
-- In den meisten Fällen macht es wenig Sinn den Heiltrank in der ersten Nacht zu verwenden. Der Grund dafür ist, dass das Dorf mit grosser Wahrscheinlichkeit noch nicht gross Informationen hat und somit wird einfach ein Trank verschwendet und die Werwölfe gewinnen eine Nacht. Es gibt natürlich Ausnahmen aber im Zweifelsfall, setze den Trank nicht in der ersten Nacht ein. Verwende ihn aber auch nicht zu spät, du selbst kannst auf mehrere Wege sterben ohne dich retten zu können (am Tag, vom Weissen Werwolf, etc).
+
+- In den meisten Fällen macht es wenig Sinn den Heiltrank in der ersten Nacht zu verwenden. Der Grund dafür ist, dass das Dorf mit grosser Wahrscheinlichkeit noch nicht gross Informationen hat und somit wird einfach ein Trank verschwendet und die Werwölfe gewinnen eine Nacht. Es gibt natürlich Ausnahmen aber im Zweifelsfall, setze den Trank nicht in der ersten Nacht ein. Verwende ihn aber auch nicht zu spät, du selbst kannst auf mehrere Wege sterben ohne dich retten zu können (am Tag, vom [Weissen Werwolf](/rollen/weisser-werwolf), etc).
 - Behalte im Hinterkopf, dass dein Heiltrank keine Wirkung hat wenn die Person vom [Beschützer](/rollen/beschutzer) beschützt wurde, die Person nicht zuhause ist ([Dorfmatratze](/rollen/dorfmatratze)) oder die Person verwandelt wurde ([Urwolf](/rollen/urwolf)). Du erfährst nicht, wenn das passiert.

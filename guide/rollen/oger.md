@@ -16,4 +16,5 @@ Der Oger scheisst jede Nacht jemandem vor die Tür (nicht derselben Person zweim
 ---
 
 ### Tipps
+
 Die Fähigkeit des Ogers ist stark, kann die "angeschissenen" aber auch frustrieren. Setze sie deshalb taktisch ein und lass niemanden ausgeschlossen fühlen, sonst wird es für sie zu einem beschissenen Spiel.

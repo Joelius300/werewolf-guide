@@ -16,5 +16,6 @@ Der Bär hat eine passive Fähigkeit. Jeden Morgen brummt es, wenn links oder re
 ---
 
 ### Tipps
-- Wenn jemand auf der anderen Seite stirbt und es am Morgen brummt, sitzt neben dir wahrscheinlich das frisch verwandelte wilde Kind.
+
+- Wenn jemand auf der anderen Seite stirbt und es am Morgen brummt, sitzt neben dir wahrscheinlich das frisch verwandelte [wilde Kind](/rollen/wildes-kind).
 - Es ist verlockend schon sehr früh Informationen über sich zu verraten aber sei vorsichtig, du könntest zu einem leichten Ziel werden.

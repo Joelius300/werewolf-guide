@@ -16,4 +16,5 @@ Der Seherlehrling kennt von Beginn an die Identität des Sehers. Es spielt als D
 ---
 
 ### Tipps für Spielleitung
+
 Lasse ihn in der ersten Nacht erwachen und bitte den Seher die Hand mit geschlossenen Augen zu heben.

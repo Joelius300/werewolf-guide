@@ -16,6 +16,7 @@ Der weisse Werwolf ist zwar ein Werwolf aber spielt für sich alleine und kann n
 ---
 
 ### Tipps
-- Da die Werwölfe niemanden töten können wenn nicht **alle** einverstanden sind, kann man als weisser Werwolf gegen Ende des Spiels absichtlich nicht kooperieren und so mehr Kontrolle erlangen.
-- Du musst deine Identität sowohl vor dem Dorf wie auch vor den Werwölfen geheimhalten. Behalte allerdings im Hinterkopf, dass die Werwölfe dich in der normalen Werwolfabstimmung kaum töten können, da du immer entgegenhaben kannst ausser natürlich, du trauerst dem Mafiaboss nach und erwachst gar nicht erst.
+
+- Da die Werwölfe niemanden töten können, wenn nicht **alle** einverstanden sind (Einstimmigkeit), kann man als weisser Werwolf gegen Ende des Spiels absichtlich nicht kooperieren und so mehr Kontrolle erlangen.
+- Du musst deine Identität sowohl vor dem Dorf wie auch vor den Werwölfen geheimhalten. Behalte allerdings im Hinterkopf, dass die Werwölfe dich in der normalen Werwolfabstimmung kaum töten können, da du immer entgegenhaben kannst; ausser natürlich, du trauerst dem Mafiaboss nach und erwachst gar nicht erst.
 - Du stehst über der Mafia (siehe [Teams](/regeln/teams)). Das heisst unter anderem, dass du nie mit der Mafia gewinnen kannst (dem Boss trauerst du trotzdem nach). Wenn du in die Mafia aufgenommen wirst, kannst du diese Informationen nutzen, um zu verhindern, dass die Mafia dir den Sieg vereitelt.

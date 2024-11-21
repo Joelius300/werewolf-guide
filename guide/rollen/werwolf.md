@@ -11,9 +11,10 @@ head:
 
 # Werwolf <TeamBadge team="Werwölfe" />
 
-Jede Nacht, können alle Werwölfe zusammen ein Opfer wählen, welches sie ermorden werden. Sie müssen sich einstimmig entscheiden, ansonsten stirbt niemand.
+Jede Nacht, müssen die Werwölfe zusammen ein Opfer wählen, welches sie ermorden werden. Sie müssen sich einstimmig entscheiden, ansonsten stirbt niemand.
 
 ---
 
 ### Tipps
-Da die Werwölfe niemanden töten können wenn nicht **alle** einverstanden sind, kann man als verliebter Werwolf oder Werwolf in der Mafia gegen Ende des Spiels absichtlich nicht kooperieren und so mehr Kontrolle erlangen. Natürlich macht es auch schon vorher Sinn, die anderen Werwölfe zu beeinflussen, um das eigene Ziel zu erreichen.
+
+Da die Werwölfe niemanden töten können, wenn nicht **alle** einverstanden sind, kann man als verliebter Werwolf oder Werwolf in der Mafia gegen Ende des Spiels absichtlich nicht kooperieren und so mehr Kontrolle erlangen. Natürlich macht es auch schon vorher Sinn, die anderen Werwölfe zu beeinflussen, um das eigene Ziel zu erreichen.

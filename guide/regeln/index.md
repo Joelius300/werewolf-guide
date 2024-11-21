@@ -8,7 +8,7 @@ description: Regeln für Werwolf / Mafia
 
 ## Grundkonzept
 
-Das Spiel Werwolf ist ein [Social-Deduction-Game](https://en.wikipedia.org/wiki/Social_deduction_game), was bedeutet, dass man die Rollen von anderen Spielern aufdecken muss, um zu gewinnen.
+Das Spiel Werwolf ist ein [Social-Deduction-Game](https://en.wikipedia.org/wiki/Social_deduction_game), was bedeutet, dass man die Rollen der anderen aufdecken muss, um zu gewinnen.
 
 Allen Personen wird eine Rolle zugewiesen, welche ein Ziel und z.T. eine Fähigkeit hat. Mehr dazu in [Rollen](/regeln/rollen).  
 Es gibt mehrere Teams/Allianzen, die zusammen gewinnen können und jede Rolle gehört zu einem dieser Teams. Die wichtigsten sind die Werwölfe und das Dorf, doch es gibt noch einige mehr und Personen könnte jederzeit das Team wechseln. Mehr dazu in [Teams](/regeln/teams).
